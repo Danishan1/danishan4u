@@ -12,7 +12,7 @@ export function Logo({ onLogoClick }) {
 
   return (
     <div className={styles.logo}>
-      <Link href={`/${user.username}`} onClick={onLogoClick}>
+      <Link href={`/`} onClick={onLogoClick}>
         {user?.name}
       </Link>
     </div>

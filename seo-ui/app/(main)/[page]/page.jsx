@@ -1,10 +1,8 @@
 import { Footer, PageNavigator } from "#components";
-import { notFound } from "next/navigation";
+import { user } from "../user.js";
 
 export default async function UserHomePage({ params }) {
-  const { page, username } = await params;
-
-  if (!username) notFound();
+  const { page } = await params;
 
   return (
     <>
@@ -16,7 +14,7 @@ export default async function UserHomePage({ params }) {
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }) {
-  const userData = { name: "Danishan", bio: "A passionate developer" }; // TODO: Fetch user data based on username
+  const userData = user;
   const { page } = await params;
   const pageName = page.charAt(0).toUpperCase() + page.slice(1);
 

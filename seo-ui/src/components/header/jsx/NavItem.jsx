@@ -25,6 +25,7 @@ export function NavItem({
 
   const isActive = (route) => {
     if (!route) return false;
+
     return activeTab === route;
   };
 
@@ -33,8 +34,9 @@ export function NavItem({
     return children.some((child) => activeTab === child.route);
   };
 
-  const getNavLink = (link) =>
-    link === "/resume" ? link : `/${username}/${link}`;
+  const getNavLink = (link) => {
+    return link === "/resume" ? link : `${link}`;
+  };
 
   const getLinkTagret = (link) => (link === "/resume" ? "_blank" : "self");
 

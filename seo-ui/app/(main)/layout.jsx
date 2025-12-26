@@ -2,12 +2,10 @@ import { DivFullWidthScroll, Header } from "#components";
 import styles from "./page.module.css";
 import RouteFilter from "./RouteFilter.jsx";
 
-export default async function MainLayout({ children, params }) {
-  const { username } = await params;
-
+export default async function MainLayout({ children }) {
   return (
     <>
-      <RouteFilter username={username} />
+      <RouteFilter />
       <DivFullWidthScroll
         wrapperClassName={styles.headerWrapper2}
         className={styles.headerWrapper}

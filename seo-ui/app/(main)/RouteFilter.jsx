@@ -1,12 +1,12 @@
 "use client";
 
 import { useEffect } from "react";
-import { getUserInfo } from "core-ui";
 import { useDynamicContent } from "#layouts";
 import { notFound } from "next/navigation";
+import { user } from "./user.js";
 
-export default function RouteFilter({ username }) {
-  const user = getUserInfo(username);
+export default function RouteFilter() {
+  
   const { setValue, getValue } = useDynamicContent();
 
   useEffect(() => {

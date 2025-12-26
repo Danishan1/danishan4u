@@ -3,6 +3,7 @@
 import { useSearchParams, useRouter } from "next/navigation";
 
 import styles from "./page.module.css";
+import { MyPages } from "#widgets";
 
 const { ErrorPage } = MyPages;
 

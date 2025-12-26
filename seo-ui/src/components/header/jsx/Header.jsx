@@ -22,7 +22,6 @@ export function Header() {
   const { getValue } = useDynamicContent();
 
   const user = getValue("userInfo");
-  const username = user?.username;
 
   const toggleDropdown = (label) => {
     setOpenDropdown(openDropdown === label ? null : label);
@@ -67,7 +66,6 @@ export function Header() {
                   onToggleDropdown={toggleDropdown}
                   onCloseMobile={closeMobileMenu}
                   isMobile={isMobileMenuOpen}
-                  username={username}
                 />
               ))}
             </ul>
@@ -83,7 +81,6 @@ export function Header() {
             pathname={pathname}
             onClose={closeDropdown}
             onItemClick={closeDropdown}
-            username={username}
           />
         )}
       </header>

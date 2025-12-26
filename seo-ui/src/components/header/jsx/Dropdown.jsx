@@ -3,7 +3,7 @@ import Link from "next/link";
 import styles from "../css/Dropdown.module.css";
 import { getActivetab } from "../helper/getActiveTab.js";
 
-export function Dropdown({ items, pathname, onItemClick, username }) {
+export function Dropdown({ items, pathname, onItemClick }) {
   const isActive = (route) => {
     const activeTab = getActivetab(pathname);
     return activeTab === route;
@@ -20,7 +20,7 @@ export function Dropdown({ items, pathname, onItemClick, username }) {
             {items.map((item) => (
               <li key={item.label} className={styles.dropdownItem}>
                 <Link
-                  href={`/${username}/${item.route}`}
+                  href={`/${item.route}`}
                   className={`${styles.dropdownLink} ${isActive(item.route) ? styles.activeLink : ""}`}
                   onClick={onItemClick}
                 >
