@@ -1,0 +1,57 @@
+:root {
+  /* =====================================================
+     PRIMARY – Core Brand & Actions
+     ===================================================== */
+  --color-primary-400: #5b9bd5;
+  --color-primary-500: #00b0f0;
+  --color-primary-600: #008ec4;
+  --color-primary-700: #0077a6;
+
+  --color-primary: var(--color-primary-500);
+
+  /* =====================================================
+     SECONDARY – Premium Accent
+     ===================================================== */
+  --color-secondary-400: #6fdad0;
+  --color-secondary-500: #52c9bd;
+  --color-secondary-600: #3faea3;
+
+  --color-secondary: var(--color-secondary-500);
+
+  /* =====================================================
+     TERTIARY – Soft Support
+     ===================================================== */
+  --color-tertiary-100: #fff6dc;
+  --color-tertiary-200: #f4d98a;
+  --color-tertiary-300: #dbac2b;
+
+  --color-tertiary: var(--color-tertiary-300);
+
+  /* =====================================================
+     SEMANTIC – Status Only
+     ===================================================== */
+  --color-success-500: #92d050;
+  --color-error-500: #ff5969;
+
+  /* =====================================================
+     NEUTRALS – Luxury Foundation
+     ===================================================== */
+  --neutral-0: #ffffff;
+  --neutral-100: #f5f7fa;
+  --neutral-200: #e5e7eb;
+  --neutral-500: #6b7280;
+  --neutral-700: #374151;
+  --neutral-900: #111827;
+
+  /* =====================================================
+         Extra
+         ===================================================== */
+
+  --max-width: 1440px;
+  --header-height: 40px;
+  --border-radius-exlg: 15px;
+  --border-radius-lg: 10px;
+  --border-radius-md: 7px;
+  --border-radius-sm: 5px;
+  --border-radius-exsm: 3px;
+}

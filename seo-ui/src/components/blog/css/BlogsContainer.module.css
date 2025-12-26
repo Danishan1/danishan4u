@@ -1,0 +1,66 @@
+.contentRender {
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+
+/* Sidebar */
+.side {
+  flex: 0 0 250px;
+}
+
+/* Content section */
+.content {
+  flex: 1;
+  padding-top: 20px;
+}
+
+.mobileSidebar {
+  display: none;
+}
+
+/* Floating action button */
+.fab {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Panel that opens above the button */
+.mobilePanel {
+  position: fixed;
+  bottom: 80px;
+  right: 16px;
+  width: 90vw;
+  max-width: 320px;
+  max-height: 70vh;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  z-index: 1000;
+}
+
+/* Mobile styling */
+@media (max-width: 768px) {
+  .contentRender {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .side {
+    display: none; /* hide desktop sidebar */
+  }
+
+  .mobileSidebar {
+    display: block;
+  }
+/* 
+  .mobilePanel {
+    overflow: auto;
+  } */
+}

@@ -1,0 +1,103 @@
+export const jkcExperience = {
+  group: "JKC Softwares LLP",
+  list: [
+    {
+      role: "Technical Project Lead",
+      org: "JKC Softwares LLP",
+      period: "Mar 2025 - Present",
+      responsiblities: [
+        "Architect and guide development of scalable, high-performance systems",
+        "Make technical decisions on frameworks, tools, and system design",
+        "Mentor developers through code reviews, pair programming, and knowledge sharing",
+        "Drive end-to-end project delivery from planning to deployment",
+        "Collaborate with Product, Design, QA, and DevOps teams",
+        "Maintain code quality, standards, and best practices",
+        "Solve complex technical challenges and mitigate development risks",
+        "Improve performance, automation, and development workflows",
+      ],
+      skills: [
+        "Software Development",
+        "System Architecture",
+        "Technical Leadership",
+        "Project Management",
+        "Code Review",
+        "Mentorship",
+        "Cross-functional Collaboration",
+      ],
+      description:
+        "As a Technical Project Lead, I bridge the gap between engineering and product by aligning business goals with technical execution, leading teams to deliver scalable and high-quality software solutions.",
+    },
+    {
+      role: "Team Facilitator",
+      org: "JKC Softwares LLP",
+      period: "Jan 2025 - Mar 2025",
+      responsiblities: [
+        "Facilitated communication between technical teams and stakeholders",
+        "Aligned technical execution with business objectives",
+        "Managed timelines, risks, and delivery milestones",
+        "Identified and resolved team roadblocks",
+        "Supported team growth through feedback and mentorship",
+      ],
+      skills: [
+        "Software Development",
+        "Team Coordination",
+        "Stakeholder Communication",
+        "Risk Management",
+        "Leadership",
+        "Mentorship",
+      ],
+      description:
+        "Acted as a bridge between teams and stakeholders to ensure smooth collaboration, clear communication, and timely project delivery while fostering a productive team environment.",
+    },
+    {
+      role: "Software Development Engineer - I (SDE-I)",
+      org: "JKC Softwares LLP",
+      period: "Nov 2023 - Mar 2025",
+      responsiblities: [
+        "Developed and optimized full-stack applications using MERN stack",
+        "Designed scalable and robust system architectures",
+        "Integrated third-party services and APIs",
+        "Performed testing and performance optimization",
+        "Collaborated with cross-functional teams for end-to-end delivery",
+        "Continuously learned and applied new technologies",
+      ],
+      skills: [
+        "React.js",
+        "Next.js",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "MongoDB",
+        "JavaScript",
+        "System Optimization",
+        "Full-Stack Development",
+      ],
+      description:
+        "Worked as a full-stack engineer focused on building scalable, efficient applications while collaborating across teams to deliver reliable and high-quality software.",
+    },
+    {
+      role: "Web Development Intern",
+      org: "JKC Softwares LLP",
+      period: "May 2023 - Aug 2023",
+      responsiblities: [
+        "Developed responsive web interfaces using React.js",
+        "Implemented backend APIs using Express.js",
+        "Worked with relational databases and DBMS concepts",
+        "Collaborated remotely with the development team",
+        "Integrated APIs using Axios",
+      ],
+      skills: [
+        "React.js",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Express.js",
+        "MySQL",
+        "DBMS",
+        "Axios",
+      ],
+      description:
+        "Completed a remote internship focusing on web development, gaining hands-on experience in frontend, backend, and database-driven applications.",
+    },
+  ],
+};

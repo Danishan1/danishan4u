@@ -1,0 +1,18 @@
+.divWrapper {
+  width: 100vw;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-color: var(--colorBackground);
+}
+
+.divContainer {
+  width: 100%;
+}
+
+@media (min-width: 1440px) {
+  .divContainer {
+    width: var(--max-width);
+  }
+}

@@ -1,0 +1,58 @@
+.aboutIcon {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  --col-github: #171515;
+  --col-linkedin: #0a66c2;
+  --col-whatsapp: #128c7e;
+  --col-pdf: #a90e06;
+  --col-mail: #da0707;
+  --col-youtube: #f40b03;
+}
+
+.aboutIcon a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  margin: 15px;
+  font-size: 1.3em;
+  color: var(--col-white);
+  border-radius: 50%;
+}
+
+.iconGithub {
+  background-color: var(--col-github);
+}
+.iconLinkedin {
+  background-color: var(--col-linkedin) !important;
+}
+.iconWhatsapp {
+  background-color: var(--col-whatsapp);
+}
+.iconPdf {
+  background-color: var(--col-pdf);
+}
+.iconMail {
+  background-color: var(--col-mail);
+}
+.leetcode {
+  background-color: #eeeeee;
+}
+
+.aboutIcon svg path {
+  color: var(--colorWhite);
+}
+
+.aboutIcon svg {
+  height: 24px;
+  width: 24px;
+}
+
+@media (max-width: 400px) {
+  .aboutIcon {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,53 @@
+export const skillsAIMaths = {
+  group: "AI, Mathematics & Intelligent Systems",
+  list: [
+    {
+      name: "Applied Mathematics",
+      version: "foundational",
+      status: "background",
+      tagline: "Mathematical foundations supporting algorithms and AI",
+      highlights: [
+        "Linear algebra for vectors and matrices",
+        "Probability and statistics fundamentals",
+        "Optimization and cost functions",
+        "Discrete mathematics for computation",
+        "Mathematical modeling of systems",
+        "Understanding numerical stability",
+        "Bridging math concepts to code",
+        "Using math to reason about algorithms",
+      ],
+    },
+    {
+      name: "Machine Learning Fundamentals",
+      version: "foundational",
+      status: "evolving",
+      tagline: "Understanding learning systems from first principles",
+      highlights: [
+        "Supervised and unsupervised learning concepts",
+        "Feature representation and preprocessing",
+        "Loss functions and optimization intuition",
+        "Model evaluation and bias–variance tradeoff",
+        "Understanding overfitting and generalization",
+        "Implementing simple models from scratch",
+        "Interpreting model behavior",
+        "Integrating ML into real systems",
+      ],
+    },
+    {
+      name: "Computer Vision",
+      version: "working",
+      status: "evolving",
+      tagline: "Visual perception systems using computer vision techniques",
+      highlights: [
+        "Image representation and transformations",
+        "Classical image processing techniques",
+        "Feature detection and tracking",
+        "Using OpenCV pipelines",
+        "Applying MediaPipe for perception tasks",
+        "Understanding limitations of vision systems",
+        "Real-time processing considerations",
+        "Bridging vision with backend systems",
+      ],
+    },
+  ],
+};

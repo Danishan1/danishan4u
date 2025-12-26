@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "#components": ["src/components/index.js"],
+      "#configs": ["src/configs/index.js"],
+      "#constants": ["src/constants/index.js"],
+      "#layouts": ["src/layouts/index.js"],
+      "#mypages": ["src/mypages/index.js"],
+      "#stores": ["src/stores/index.js"],
+      "#translations": ["src/translations/index.js"],
+      "#utils": ["src/utils/index.js"],
+      "#widgets": ["src/widgets/index.js"],
+      "#components/*": ["src/components/*"],
+      "#configs/*": ["src/configs/*"],
+      "#constants/*": ["src/constants/*"],
+      "#layouts/*": ["src/layouts/*"],
+      "#mypages/*": ["src/mypages/*"],
+      "#stores/*": ["src/stores/*"],
+      "#translations/*": ["src/translations/*"],
+      "#utils/*": ["src/utils/*"],
+      "#widgets/*": ["src/widgets/*"]
+    }
+  }
+}

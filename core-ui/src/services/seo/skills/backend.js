@@ -1,0 +1,55 @@
+export const skillsBackend = {
+  group: "Backend & Platform Engineering",
+  list: [
+    {
+      name: "Node.js Backend Development",
+      version: "advanced",
+      status: "core",
+      tagline:
+        "Building scalable backend systems using event-driven architecture",
+      highlights: [
+        "Asynchronous programming and event loops",
+        "RESTful API design and implementation",
+        "Authentication and authorization flows",
+        "Error handling and system resilience",
+        "Integration with databases and external services",
+        "Performance tuning and bottleneck analysis",
+        "Structuring large backend codebases",
+        "Designing for scalability and maintainability",
+        "Handling real-world production constraints",
+      ],
+    },
+    {
+      name: "Database Systems",
+      version: "strong",
+      status: "core",
+      tagline: "Designing reliable and efficient data storage layers",
+      highlights: [
+        "Relational vs non-relational tradeoffs",
+        "Schema design and normalization",
+        "Query optimization concepts",
+        "Indexing strategies",
+        "Data consistency and integrity",
+        "Handling migrations and schema evolution",
+        "Designing for scalability",
+        "Using databases as part of system architecture",
+      ],
+    },
+    {
+      name: "API Design & Integration",
+      version: "advanced",
+      status: "core",
+      tagline: "Designing interfaces between systems",
+      highlights: [
+        "REST principles and resource modeling",
+        "Versioning and backward compatibility",
+        "Error models and response consistency",
+        "Security considerations in APIs",
+        "Idempotency and reliability",
+        "Documentation and developer experience",
+        "Integrating third-party services",
+        "Designing APIs for long-term use",
+      ],
+    },
+  ],
+};

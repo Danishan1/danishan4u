@@ -1,0 +1,66 @@
+.contentRender {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.gTitle,
+.title {
+  text-align: center;
+  font-size: calc(3 * var(--size));
+  font-weight: var(--boldL3);
+  color: var(--color-secondary);
+}
+
+.subtitle {
+  text-align: center;
+  font-weight: var(--boldL3);
+}
+
+.gTitle {
+  font-size: calc(1.5 * var(--size));
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.skillGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cardSkill {
+  display: flex;
+  align-items: stretch;
+}
+
+.slidingCard {
+  width: 500px;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: calc(2 * var(--size));
+  }
+
+  .gTitle {
+    font-size: calc(1.3 * var(--size));
+  }
+}
+
+@media (max-width: 350px) {
+  .title {
+    font-size: calc(1.5 * var(--size));
+  }
+
+  .gTitle {
+    font-size: calc(1.2 * var(--size));
+  }
+}

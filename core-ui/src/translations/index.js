@@ -1,0 +1,2 @@
+
+export const translationValue = "This is a translation value";

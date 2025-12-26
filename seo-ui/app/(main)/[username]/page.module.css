@@ -1,0 +1,20 @@
+.headerWrapper2 {
+  height: var(--header-height);
+  display: flex;
+  justify-content: center;
+}
+
+.headerWrapper {
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.workingBody2 {
+  height: calc(100% - var(--header-height));
+}
+
+.workingBody {
+  padding: 10px;
+  padding-top: 0;
+}
