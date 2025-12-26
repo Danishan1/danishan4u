@@ -1,3 +1,3 @@
 export const getEndpoint = (...route) => {
-  return `http://localhost:5008/${route.join("/")}`;
+  return `${process.env.NEXT_PUBLIC_API_URL}/${route.join("/")}`;
 };
