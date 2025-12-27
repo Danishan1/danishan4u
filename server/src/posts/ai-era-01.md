@@ -44,7 +44,8 @@ Swarms make AI:
 
 ## High-Level Architecture
 
-```
+```md
+Diagram 
                ┌───────────────────────────┐
                │        User Query          │
                └──────────────┬────────────┘

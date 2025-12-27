@@ -49,7 +49,8 @@ This is the architectural direction behind modern copilots, internal agents, and
 
 A production-grade MCP + RAG system typically looks like this:
 
-```
+```md
+Diagram 
                      ┌────────────────────────────┐
                      │        User Query           │
                      └──────────────┬──────────────┘

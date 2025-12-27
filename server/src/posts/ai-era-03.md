@@ -101,7 +101,8 @@ Crucially, this happens **without hardcoding integrations into the model**.
 
 MCP separates decision-making from execution.
 
-```
+```md
+Diagram 
             ┌──────────────┐
             │   AI Model   │
             └──────────────┘

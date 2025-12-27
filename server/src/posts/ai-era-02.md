@@ -66,7 +66,8 @@ This dramatically reduces hallucinations and single-agent limitations.
 
 ## 2. The 4-Layer Swarm Architecture (Enterprise Grade)
 
-```
+```md
+Diagram 
 ────────────────────────────────────────────
    L4: Governance Layer (Rules, Safety, KPIs)
 ────────────────────────────────────────────
@@ -210,7 +211,8 @@ It produces the final answer.
 
 ### Shared Memory = “Blackboard”
 
-```
+```md
+Diagram 
 [ Tasks ]
 [ Partial data ]
 [ Retrieved docs ]

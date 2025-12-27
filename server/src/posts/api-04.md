@@ -33,7 +33,9 @@ Before implementing individual APIs, we start with a **shared foundation** that 
 
 ### **Folder Structure**
 
-```
+```md
+Diagram 
+
 project-root/
 │
 ├─ src/

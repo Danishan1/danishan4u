@@ -20,7 +20,8 @@ Every API type shares these foundational components:
 
 ## **2. Recommended Folder Structure**
 
-```
+```md
+Diagram 
 project-root/
 │
 ├─ src/

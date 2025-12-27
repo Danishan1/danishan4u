@@ -41,7 +41,8 @@ The **event loop** is at the heart of Node.js performance. Here’s how it works
 
 ### Visualizing the Event Loop
 
-```
+```md
+Diagram 
 [Incoming Requests] --> [Event Loop] --> [I/O Task?]
                                    |
                                    |-- Yes --> [Delegate to OS/Thread Pool]

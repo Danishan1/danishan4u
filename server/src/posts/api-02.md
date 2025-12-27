@@ -131,7 +131,8 @@ For a **modern tech stack** (Node.js backend, React/React Native frontend, Elect
 
 ## 6. Modern Layered Architecture
 
-```
+```md
+Diagram 
                  ┌──────────────────────────┐
                  │       Frontend Apps      │
                  │  (React, RN, Electron)   │

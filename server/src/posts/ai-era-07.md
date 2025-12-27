@@ -278,7 +278,8 @@ Observability turns hallucinations into **debuggable failures**.
 
 A realistic evaluation pipeline looks like:
 
-```
+```md
+Diagram 
 Task Dataset
    ↓
 Agent Execution

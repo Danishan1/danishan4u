@@ -223,7 +223,8 @@ Hallucinations become debuggable only when the system is transparent.
 
 ## Reference Architecture for Hallucination-Resistant Agents
 
-```
+```md
+Diagram 
 User Query
    ↓
 Planner Agent
