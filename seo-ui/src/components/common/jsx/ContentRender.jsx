@@ -1,10 +1,10 @@
 import { getImages } from "#stores";
-import { MyCards } from "#widgets";
+import { MyCards, MyHooks } from "#widgets";
 import styles from "../css/ContentRender.module.css";
 
 const { CardProduct, CardExperience, CardTextSliding } = MyCards;
 
-const RenderCard = ({ info, forWhat }) => {
+const RenderCard = ({ info, forWhat, mode = "H" }) => {
   const temp = {
     skill: (
       <CardProduct
@@ -30,7 +30,7 @@ const RenderCard = ({ info, forWhat }) => {
         <CardTextSliding
           productName={info.name}
           desc={info.description}
-          orientation="H"
+          orientation={mode}
           img={getImages(info.code)?.src}
         />
       </div>
@@ -40,12 +40,16 @@ const RenderCard = ({ info, forWhat }) => {
   return temp[forWhat] || null;
 };
 
+const { useMediaQuery } = MyHooks;
+
 export const ContentRender = ({
   content,
   metaInfo,
   registerPoint,
   forWhat,
 }) => {
+  const isMobile = useMediaQuery(600);
+
   return (
     <div className={styles.contentRender}>
       <p className={styles.title}>{metaInfo.title}</p>
@@ -63,7 +67,11 @@ export const ContentRender = ({
                     className={styles.cardSkill}
                     ref={registerPoint(c.name)}
                   >
-                    <RenderCard info={c} forWhat={forWhat} />
+                    <RenderCard
+                      info={c}
+                      forWhat={forWhat}
+                      mode={isMobile ? "V" : "H"}
+                    />
                   </div>
                 );
               })}

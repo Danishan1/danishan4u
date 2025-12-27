@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "../css/HomePage.module.css";
 import { IconSection } from "./Icon.jsx";
 
-export function HomePage({ imageSrc = "/danishan.png" }) {
+export function HomePage({ imageSrc = "/danishan0.png" }) {
   return (
     <div className={styles.aboutD1}>
       <Image

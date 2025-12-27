@@ -94,11 +94,11 @@ export const heroEConfig = {
     cta: {
       primary: {
         label: "Explore My Work",
-        href: "/danishan/project",
+        href: "project",
       },
       secondary: {
         label: "My Journey",
-        href: "/danishan/journey",
+        href: "journey",
       },
     },
     background: {

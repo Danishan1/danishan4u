@@ -8,8 +8,8 @@ export const heroCConfig = {
     summary:
       "Professional growth and timeline across multiple roles, ventures, and key responsibilities.",
     cta: {
-      // primary: { label: "View Experience", href: "#timeline" },
-      // secondary: { label: "See Case Studies", href: "#case-studies" },
+      primary: { label: "View Resume", href: "resume" },
+      secondary: { label: "See Blogs", href: "blog" },
     },
     valueBlocks: [
       {
@@ -93,12 +93,12 @@ export const heroCConfig = {
 
     cta: {
       primary: {
-        label: "Send a Message",
-        href: "#contact-form",
+        label: "View Journey",
+        href: "journey",
       },
       secondary: {
         label: "View Work",
-        href: "/projects",
+        href: "project",
       },
     },
 

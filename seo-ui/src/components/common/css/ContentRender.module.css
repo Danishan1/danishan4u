@@ -45,6 +45,13 @@
   width: 500px;
 }
 
+@media (max-width: 600px) {
+  .cardSkill {
+    width: 100%;
+    border: 1px solid red;
+  }
+}
+
 @media (max-width: 500px) {
   .title {
     font-size: calc(2 * var(--size));

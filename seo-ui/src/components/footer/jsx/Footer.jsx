@@ -35,7 +35,7 @@ export function Footer() {
           {flatMenu.map((item, indx) => (
             <Link
               key={indx}
-              href={`/${user.username}${item.route}`}
+              href={item.route}
               className={`${styles.link} ${item.route === activeTab ? styles.color : ""}`}
             >
               {item.label}

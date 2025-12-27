@@ -5,27 +5,31 @@ import styles from "../css/BlogsContainer.module.css";
 import { Sidebar } from "./Sidebar";
 import { useSidebarStick } from "../helper/useSidebarStick";
 import { useRouter, usePathname } from "next/navigation";
-import { MyIcons, MyInputs } from "#widgets";
+import { MyHooks, MyInputs } from "#widgets";
+import { useRef } from "react";
 
 const {
-  Icons: { linesIcon },
-} = MyIcons;
-
-const {
-  Actions: { IconButton },
+  Actions: { Button },
 } = MyInputs;
+
+const { useOutsideClick } = MyHooks;
 
 export const BlogsContainer = ({ sidebar, children }) => {
   const { sidebarRef, containerRef } = useSidebarStick();
   const router = useRouter();
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const blogRef = useRef();
 
   const handleClick = (value) => {
     const base = pathname.split("blog")[0];
     router.push(`${base}blog/${value}`);
     setMobileOpen(false); // close on select (mobile)
   };
+
+  useOutsideClick(blogRef, () => {
+    setMobileOpen(false);
+  });
 
   return (
     <div ref={containerRef} className={styles.contentRender}>
@@ -40,7 +44,7 @@ export const BlogsContainer = ({ sidebar, children }) => {
       </section>
 
       {/* Mobile floating sidebar */}
-      <div className={styles.mobileSidebar}>
+      <div className={styles.mobileSidebar} ref={blogRef}>
         {mobileOpen && (
           <div className={styles.mobilePanel}>
             <Sidebar
@@ -51,11 +55,11 @@ export const BlogsContainer = ({ sidebar, children }) => {
         )}
 
         <div className={styles.fab}>
-          <IconButton
-            icon={linesIcon}
+          <Button
+            text={"More Blogs"}
             onClick={() => setMobileOpen((v) => !v)}
-            size={2}
-            color={"var(--color-primary"}
+            color={"var(--color-primary)"}
+            borderRadius={"var(--border-radius-sm)"}
           />
         </div>
       </div>

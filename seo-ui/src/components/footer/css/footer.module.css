@@ -76,6 +76,8 @@
   .footer {
     height: min-content;
     flex-direction: column;
+    min-height: 300px;
+    padding-bottom: 100px;
   }
 
   .border {
