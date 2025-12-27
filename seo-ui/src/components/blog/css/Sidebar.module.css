@@ -1,13 +1,14 @@
 .sidebar {
   width: 300px;
   padding: 10px;
-  border-right: 1px solid var(--colorGray3);
   font-family: Arial, sans-serif;
 }
 
 .sidebarContent {
   height: 85vh;
   overflow-y: auto;
+  padding-right: 7px;
+  border-right: 1px solid var(--colorGray3);
 }
 
 .search {
