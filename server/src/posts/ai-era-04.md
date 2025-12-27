@@ -1,4 +1,4 @@
-## MCP Engineering Preparation: How a Real MCP Server Works Under the Hood
+# MCP Engineering Preparation: How a Real MCP Server Works Under the Hood
 
 Understanding MCP conceptually is only half the story.
 To use it effectively—or build systems around it—you need to understand what an **MCP server actually looks like at the engineering level**.

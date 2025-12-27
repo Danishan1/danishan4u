@@ -1,5 +1,5 @@
 import { PageNavigator } from "#components";
-import { user } from "./user.js";
+import { getMetaPerPage } from "#utils";
 
 export default async function UserHomePage() {
   return (
@@ -9,18 +9,9 @@ export default async function UserHomePage() {
   );
 }
 
-// Generate metadata for SEO
 export async function generateMetadata({ params }) {
-  const userData = user;
+  const { page } = await params;
+  const meta = await getMetaPerPage(page);
 
-  if (!userData) {
-    return {
-      title: "User Not Found",
-    };
-  }
-
-  return {
-    title: `${userData.name} - Portfolio`,
-    description: userData.bio || `Portfolio of ${userData.name}`,
-  };
+  return meta;
 }

@@ -1,16 +1,21 @@
-"use client";
+import { getMetaPerPage } from "#utils";
 
-import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+export default function BlogPage() {
+  return (
+    <section
+      style={{
+        height: "100%",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      <h1>Choose a Blog from Sidebar </h1>
+    </section>
+  );
+}
+export async function generateMetadata({ params }) {
+  const meta = await getMetaPerPage("blog");
 
-export default function BlogDynamicPage() {
-  const router = useRouter();
-
-  useEffect(() => {
-    router.push(
-      "/blog/nodejs/nodejs-a-complete-guide-to-the-popular-javascript-runtime"
-    );
-  }, [router]);
-
-  return null; // or a loading state
+  return meta;
 }

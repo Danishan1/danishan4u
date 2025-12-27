@@ -1,4 +1,4 @@
-## 1. What is HashiCorp Vault?
+# 1. What is HashiCorp Vault?
 
 - **HashiCorp Vault** is a **centralized secrets management tool**.
 - It’s designed to **securely store, manage, and control access** to secrets, such as:

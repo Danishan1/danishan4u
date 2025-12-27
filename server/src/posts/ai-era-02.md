@@ -64,7 +64,7 @@ Agents debate, challenge, or re-check each other's output.
 
 This dramatically reduces hallucinations and single-agent limitations.
 
-# 2. The 4-Layer Swarm Architecture (Enterprise Grade)
+## 2. The 4-Layer Swarm Architecture (Enterprise Grade)
 
 ```
 ────────────────────────────────────────────
@@ -100,9 +100,9 @@ This architecture is used by:
 - Microsoft AutoGen Studio
 - Anthropic Arctic workflows
 
-# 3. The 7 Types of Agents in a Mature Swarm
+## 3. The 7 Types of Agents in a Mature Swarm
 
-## 1 Planner Agent
+### 1 Planner Agent
 
 Breaks the user request into tasks:
 
@@ -121,7 +121,7 @@ Task 4: Validate claims
 Task 5: Summarize results
 ```
 
-## 2 Research Explorer Agents
+### 2 Research Explorer Agents
 
 Their job:
 
@@ -140,7 +140,7 @@ Tools they use:
 
 They produce raw data but not conclusions.
 
-## 3 Analyst Agents
+### 3 Analyst Agents
 
 They convert data → insights:
 
@@ -156,7 +156,7 @@ Good for:
 - numerical analysis
 - trend breakdown
 
-## 4 Tool Runner Agents (MCP)
+### 4 Tool Runner Agents (MCP)
 
 They don’t think much. They **execute**:
 
@@ -169,7 +169,7 @@ They don’t think much. They **execute**:
 
 They are “workers”.
 
-## 5 Guard / Validator Agents
+### 5 Guard / Validator Agents
 
 Most important for enterprise.
 
@@ -183,7 +183,7 @@ They:
 
 A swarm becomes trustworthy only **with validation agents**.
 
-## 6 Debate Agents
+### 6 Debate Agents
 
 They argue to expose errors.
 
@@ -195,7 +195,7 @@ Process:
 
 This reduces hallucinations 30–60%.
 
-## 7 Supervisor / Merger Agent
+### 7 Supervisor / Merger Agent
 
 It merges all partial results:
 
@@ -206,7 +206,7 @@ It merges all partial results:
 
 It produces the final answer.
 
-# 4. How Swarm Agents Communicate (Blackboard System)
+## 4. How Swarm Agents Communicate (Blackboard System)
 
 ### Shared Memory = “Blackboard”
 
@@ -229,11 +229,11 @@ This avoids:
 - message looping
 - infinite back-and-forth
 
-# 5. Swarm Coordination Algorithms (The Real Magic)
+## 5. Swarm Coordination Algorithms (The Real Magic)
 
 Several algorithms enable **emergent intelligence**:
 
-## Algorithm A: Contract Net Protocol (Distributed Assignment)
+### Algorithm A: Contract Net Protocol (Distributed Assignment)
 
 Agents BID for tasks based on:
 
@@ -243,7 +243,7 @@ Agents BID for tasks based on:
 
 Planner chooses the best one.
 
-## Algorithm B: Stigmergy (Environment Communication)
+### Algorithm B: Stigmergy (Environment Communication)
 
 Used by ants.
 
@@ -255,7 +255,7 @@ Agents leave signals:
 
 Future agents use the signals — NO direct messages.
 
-## Algorithm C: Consensus / Debate
+### Algorithm C: Consensus / Debate
 
 Multiple agents propose answers → merged into one:
 
@@ -265,7 +265,7 @@ Multiple agents propose answers → merged into one:
 
 This drastically improves accuracy.
 
-## Algorithm D: Hierarchical Task Networks (HTN Planning)
+### Algorithm D: Hierarchical Task Networks (HTN Planning)
 
 Used in robotics.
 
@@ -278,7 +278,7 @@ Planner converts request into:
 
 This enables long, structured workflows.
 
-## Algorithm E: Attention Routing
+### Algorithm E: Attention Routing
 
 Agents only look at relevant tasks.
 
@@ -286,7 +286,7 @@ No "global awareness".
 
 This keeps the swarm efficient.
 
-# 6. Swarm Execution Example (Real-World Workflow)
+## 6. Swarm Execution Example (Real-World Workflow)
 
 User asks:
 
@@ -337,7 +337,7 @@ Validates and outputs final version.
 
 This happens in seconds.
 
-# 7. Building Your Own AI Swarm (itsRIGHTtime)
+## 7. Building Your Own AI Swarm (itsRIGHTtime)
 
 You can create vertical-specific swarms:
 
@@ -364,7 +364,7 @@ Each vertical has:
 - Validators
 - Tool runners
 
-# **8. Swarm + RAG + MCP (The Trifecta Architecture)**
+## **8. Swarm + RAG + MCP (The Trifecta Architecture)**
 
 ```
           ┌───────────────┐

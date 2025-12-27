@@ -8,7 +8,7 @@ Vault’s architecture has **three major planes**:
 
 And internally, Vault is built as a **plugin-based system** where every secret engine and auth method is modular.
 
-# 1. High-Level Architecture Diagram (conceptual)
+## 1. High-Level Architecture Diagram (conceptual)
 
 ```
            +---------------------------+
@@ -48,7 +48,7 @@ And internally, Vault is built as a **plugin-based system** where every secret e
            +---------------------------+
 ```
 
-# 2. Vault API Layer (Stateless Frontend)
+## 2. Vault API Layer (Stateless Frontend)
 
 - All clients interact with Vault via the **HTTP/HTTPS REST API**.
 - The API layer is **stateless**:
@@ -60,7 +60,7 @@ And internally, Vault is built as a **plugin-based system** where every secret e
 
 This means Vault is easy to scale horizontally.
 
-# 3. The Vault Core (Brain of Vault)
+## 3. The Vault Core (Brain of Vault)
 
 This is the **core control plane** that handles:
 
@@ -170,7 +170,7 @@ Vault encrypts/decrypts data using:
 
 Vault never stores plaintext in the backend.
 
-# 4. Storage Backend Architecture
+## 4. Storage Backend Architecture
 
 Storage is **pluggable**. Popular backends:
 
@@ -192,7 +192,7 @@ Vault stores:
 
 The backend **never sees plaintext**, only ciphertext.
 
-# 5. Seal / Unseal Mechanism
+## 5. Seal / Unseal Mechanism
 
 Vault starts in **sealed** mode.
 
@@ -210,7 +210,7 @@ After unseal:
 - The **master key** unencrypts the “barrier key”
 - Barrier key decrypts all storage data
 
-# 6. Vault Clustering Architecture
+## 6. Vault Clustering Architecture
 
 Vault clusters run in **active/standby mode**:
 
@@ -232,7 +232,7 @@ Clustering requires:
   OR
 - Raft’s built-in consensus
 
-# 7. Replication (Enterprise Feature)
+## 7. Replication (Enterprise Feature)
 
 Vault Enterprise adds:
 
@@ -249,7 +249,7 @@ Vault Enterprise adds:
 
 Open-source Vault **does not include replication**.
 
-# 8. Plugin Architecture
+## 8. Plugin Architecture
 
 Vault allows external plugins for:
 
@@ -259,7 +259,7 @@ Vault allows external plugins for:
 
 Each plugin runs in a **separate process**, signed & verified.
 
-# 9. Data Flow Example (Reading a Secret)
+## 9. Data Flow Example (Reading a Secret)
 
 ### Step-by-step
 
@@ -280,7 +280,7 @@ Each plugin runs in a **separate process**, signed & verified.
 
 At _no point_ does the backend see plaintext.
 
-# 10. What makes Vault secure?
+## 10. What makes Vault secure?
 
 - Encryption-at-rest via barrier key
 - Authentication + policy-based authorization

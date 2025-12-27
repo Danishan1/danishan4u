@@ -17,7 +17,7 @@ That is exactly what **Model Context Protocol (MCP)** was created to fix.
 
 This article explains MCP **from first principles**, connects it to real system design, and shows why it is becoming **core infrastructure for enterprise and autonomous AI systems**.
 
-## 1. What Is Model Context Protocol (MCP)?
+### 1. What Is Model Context Protocol (MCP)?
 
 **Model Context Protocol (MCP)** is a **standardized protocol** that allows AI models to securely and dynamically connect to external tools, data sources, and services in real time.
 
@@ -35,7 +35,7 @@ AI Model  ←→  MCP  ←→  Tools / Databases / APIs / Systems
 
 Just as HTTP standardized communication for the web, MCP standardizes **how AI connects to the world**.
 
-## 2. Why MCP Exists: Solving Tool Chaos
+### 2. Why MCP Exists: Solving Tool Chaos
 
 ### Before MCP
 
@@ -82,7 +82,7 @@ A useful analogy:
 
 > **MCP is the USB-C port for AI systems.**
 
-## 3. What Can MCP Connect To?
+### 3. What Can MCP Connect To?
 
 Using MCP, an AI system can:
 
@@ -97,7 +97,7 @@ Using MCP, an AI system can:
 
 Crucially, this happens **without hardcoding integrations into the model**.
 
-## 4. The MCP System Architecture (Core Mental Model)
+### 4. The MCP System Architecture (Core Mental Model)
 
 MCP separates decision-making from execution.
 
@@ -119,7 +119,7 @@ MCP separates decision-making from execution.
 
 If you understand this diagram, you understand MCP.
 
-## 5. What Is a Tool Server?
+### 5. What Is a Tool Server?
 
 A **Tool Server** is a program that exposes real-world actions—called **tools**—to AI through MCP.
 
@@ -148,7 +148,7 @@ Tool servers can be written in:
 
 MCP does not care about implementation language—only schemas and behavior.
 
-## 6. What Is a Model Client?
+### 6. What Is a Model Client?
 
 The **Model Client** sits between the AI model and MCP tool servers.
 
@@ -172,7 +172,7 @@ The model client:
 
 This design is intentional and critical for production systems.
 
-## 7. MCP vs Function Calling vs Plugins
+### 7. MCP vs Function Calling vs Plugins
 
 This distinction is essential.
 
@@ -208,7 +208,7 @@ This distinction is essential.
 - Plugins → platform-level integration
 - MCP → **industry-level infrastructure**
 
-## 8. How MCP Works (Developer View)
+### 8. How MCP Works (Developer View)
 
 MCP is built on:
 
@@ -228,7 +228,7 @@ Typical flow:
 
 No hardcoded logic. No special cases.
 
-## 9. A Real-World Example
+### 9. A Real-World Example
 
 Without MCP:
 
@@ -250,7 +250,7 @@ This is why MCP is becoming foundational for:
 - Autonomous agents
 - Robotics and real-time systems
 
-## 10. MCP as an AI Control Bus
+### 10. MCP as an AI Control Bus
 
 For engineers building:
 
@@ -272,7 +272,7 @@ Databases | Servers | Robots | Pipelines
 The model decides.
 The system executes.
 
-## 11. Final Mental Model
+### 11. Final Mental Model
 
 Lock this in:
 
@@ -282,7 +282,7 @@ Lock this in:
 
 Without MCP, AI can think—but it cannot act.
 
-## Final Takeaway
+### Final Takeaway
 
 > **Model Context Protocol is not an AI feature.
 > It is infrastructure.**

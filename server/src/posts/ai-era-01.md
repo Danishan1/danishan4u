@@ -20,7 +20,7 @@ This is the evolution of:
 - Agentic LLMs
 - RAG + Tool + Workflow systems
 
-# Why Use AI Swarms?
+## Why Use AI Swarms?
 
 Because some tasks are **too complex for one agent**.
 
@@ -42,7 +42,7 @@ Swarms make AI:
 - Less hallucination-prone
 - Faster
 
-# High-Level Architecture
+## High-Level Architecture
 
 ```
                ┌───────────────────────────┐
@@ -70,11 +70,11 @@ Swarms make AI:
 This is **not** simple parallelism.
 These agents have **memory, personality, specialization, and communication protocols**.
 
-# Types of Agents in a Swarm
+## Types of Agents in a Swarm
 
 Usually 5 core species:
 
-## 1 **Explorer Agents**
+### 1 **Explorer Agents**
 
 They:
 
@@ -90,7 +90,7 @@ Used for:
 - Policy lookup
 - Code scanning
 
-## 2 **Analyst Agents**
+### 2 **Analyst Agents**
 
 They:
 
@@ -102,7 +102,7 @@ They:
 
 They run internal reasoning.
 
-## 3 **Tool Agents (MCP Agents)**
+### 3 **Tool Agents (MCP Agents)**
 
 They:
 
@@ -115,7 +115,7 @@ They:
 
 These are the **hands** of the swarm.
 
-## 4 **Validator Agents**
+### 4 **Validator Agents**
 
 They:
 
@@ -127,7 +127,7 @@ They:
 
 This massively reduces errors.
 
-## 5 **Planner / Orchestrator Agent**
+### 5 **Planner / Orchestrator Agent**
 
 The **leader** of the swarm:
 
@@ -139,7 +139,7 @@ The **leader** of the swarm:
 
 It ensures global optimization.
 
-# Communication Model
+## Communication Model
 
 Swarms communicate using a **shared memory** + **task queue**, e.g.:
 
@@ -155,7 +155,7 @@ Swarms communicate using a **shared memory** + **task queue**, e.g.:
 
 Agents read/write without interfering.
 
-# Why AI Swarms Beat Single Agents
+## Why AI Swarms Beat Single Agents
 
 | Feature               | Single Agent | Swarm                     |
 | --------------------- | ------------ | ------------------------- |
@@ -169,7 +169,7 @@ Agents read/write without interfering.
 
 Swarms are the **true enterprise approach**.
 
-# Swarm Example (Enterprise Workflow)
+## Swarm Example (Enterprise Workflow)
 
 User asks:
 
@@ -211,7 +211,7 @@ Creates PDF or slide deck.
 
 All automated.
 
-# The 3 Swarm Coordination Patterns
+## The 3 Swarm Coordination Patterns
 
 ### 1. Centralized Swarm
 
@@ -236,7 +236,7 @@ Agents grouped into teams:
 
 Best for enterprise.
 
-# Swarm + RAG + MCP = Ultimate System
+## Swarm + RAG + MCP = Ultimate System
 
 This is the next-gen stack:
 
@@ -250,7 +250,7 @@ This is the next-gen stack:
 A single agent = ChatGPT-like interface.
 A swarm = **Autonomous workforce**.
 
-# AI Swarm Capabilities
+## AI Swarm Capabilities
 
 - Autonomous research
 - Whole codebase analysis
@@ -263,7 +263,7 @@ A swarm = **Autonomous workforce**.
 - Debate & consensus
 - Realtime decision-making
 
-# Future Direction (Where the industry is going)
+## Future Direction (Where the industry is going)
 
 You will hear more about:
 

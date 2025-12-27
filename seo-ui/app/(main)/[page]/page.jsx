@@ -1,5 +1,5 @@
 import { Footer, PageNavigator } from "#components";
-import { user } from "../user.js";
+import { getMetaPerPage } from "#utils";
 
 export default async function UserHomePage({ params }) {
   const { page } = await params;
@@ -12,14 +12,9 @@ export default async function UserHomePage({ params }) {
   );
 }
 
-// Generate metadata for SEO
 export async function generateMetadata({ params }) {
-  const userData = user;
   const { page } = await params;
-  const pageName = page.charAt(0).toUpperCase() + page.slice(1);
+  const meta = await getMetaPerPage(page);
 
-  return {
-    title: `${pageName} - ${userData.name}`,
-    description: userData.bio || `Portfolio of ${userData.name}`,
-  };
+  return meta;
 }

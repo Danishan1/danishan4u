@@ -2,7 +2,7 @@ import { ENK } from "#constants";
 
 const NAV_ITEMS = [
   { label: "Home", route: "/" },
-  // { label: "About", route: "/about" },
+  { label: "About", route: "/about" },
   { label: "Journey", route: "/journey" },
   { label: "Skills", route: "/skill" },
   { label: "Blogs", route: "/blog" },

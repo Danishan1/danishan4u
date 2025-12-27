@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Resume.module.css";
+import { getMetaPerPage } from "#utils";
 
 const Resume = () => {
   return (
@@ -15,3 +16,9 @@ const Resume = () => {
 };
 
 export default Resume;
+
+export async function generateMetadata({ params }) {
+  const meta = await getMetaPerPage("resume");
+
+  return meta;
+}
