@@ -50,6 +50,27 @@ export const getIdBySlug = (slug) => {
   return search(blogListWithSlugs);
 };
 
+export const getMetaBySlug = (slug) => {
+  // Get the blog list with slugs
+  const blogListWithSlugs = getBlogListService();
+
+  // Recursive search function
+  const search = (items) => {
+    for (const item of items) {
+      if (item.slug === slug) {
+        return item || null; // Return id if found
+      }
+      if (item.children) {
+        const found = search(item.children);
+        if (found) return found;
+      }
+    }
+    return null; // Not found
+  };
+
+  return search(blogListWithSlugs);
+};
+
 const postSidebar = [
   {
     title: "Security",

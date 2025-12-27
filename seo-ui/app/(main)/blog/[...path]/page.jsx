@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import { MarkdownRenderer } from "#components";
 import { apiCaller, getEndpoint } from "#utils";
-import { user } from "../../../(main)/user.js";
 
 export default async function BlogDynamicPage({ params }) {
   const { path } = await params;
@@ -18,33 +17,34 @@ export default async function BlogDynamicPage({ params }) {
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }) {
-  const userData = user;
-  if (!userData) {
+  const { path } = await params;
+  if (!path || path.length > 4) notFound();
+
+  const prepare = path.join("__");
+  const endpoint = getEndpoint(`public/posts/meta-info/${prepare}`);
+  const response = await apiCaller({ endpoint });
+
+  const meta = response.data;
+
+  if (!meta) {
     return {
-      title: "User Not Found",
+      title: "Blog Not Found | Danishan",
+      description: "The requested blog post could not be found.",
     };
   }
 
+  const alterLink = getEndpoint(meta.slug);
+
   return {
-    title: `Blogs - ${userData.name}`,
-    description: userData.bio || `Portfolio of ${userData.name}`,
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
+    canonical: alterLink,
+    openGraph: {
+      title: meta.title,
+      description: meta.description,
+      url: alterLink,
+      // images: [{ url: `https://yourdomain.com${meta.ogImage}` }],
+    },
   };
 }
-
-// export async function generateMetadata({ params }) {
-//   const { path } = await params;
-//   if (!path || path.length > 4) return {};
-
-//   const post = {};
-
-//   if (!post) return {};
-
-//   return {
-//     title: post.title,
-//     description: post.excerpt,
-//     openGraph: {
-//       title: post.title,
-//       description: post.excerpt,
-//     },
-//   };
-// }
