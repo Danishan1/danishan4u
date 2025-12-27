@@ -1,6 +1,6 @@
 "use client";
 
-import { HeroSection } from "#components";
+import { AboutPage, HeroSection } from "#components";
 import { Loading } from "#components";
 import { useHeroDetails, ENK } from "core-ui";
 
@@ -12,6 +12,7 @@ export const About = () => {
   return (
     <>
       <HeroSection config={config} />
+      <AboutPage />
     </>
   );
 };

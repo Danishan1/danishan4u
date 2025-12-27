@@ -1,3 +1,4 @@
+export { AboutPage } from "./about/jsx/AboutPage.jsx";
 export { PortfolioHome } from "./home/jsx/PortfolioHome.jsx";
 export { Loading } from "./common/jsx/Loading.jsx";
 export { BlogsContainer } from "./blog/jsx/BlogsContainer.jsx";

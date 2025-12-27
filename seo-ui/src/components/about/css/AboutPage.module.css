@@ -1,0 +1,172 @@
+/* =====================================================
+   Layout
+   ===================================================== */
+.intro {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  color: var(--neutral-700);
+  font-family: "Inter", sans-serif;
+}
+
+/* =====================================================
+   Headings
+   ===================================================== */
+.hd2 {
+  font-size: 0.85rem;
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  color: var(--neutral-500);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.hd1_col {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-top: 0.5rem;
+}
+
+.hd4_col {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-secondary);
+}
+
+/* =====================================================
+   Name Styling
+   ===================================================== */
+.name_text_gry {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: var(--neutral-500);
+}
+
+.name_text_col {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+/* =====================================================
+   Biography Text
+   ===================================================== */
+.simple_text {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--neutral-700);
+}
+
+.biography {
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+  border-left: 3px solid var(--color-primary);
+}
+
+/* =====================================================
+   Section Styling
+   ===================================================== */
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section_title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid var(--color-primary-400);
+  display: inline-block;
+  padding-bottom: 0.25rem;
+}
+
+/* =====================================================
+   List Styling
+   ===================================================== */
+.list {
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  list-style-type: disc;
+}
+
+.list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+  color: var(--neutral-700);
+}
+
+/* =====================================================
+   Paragraph Highlights
+   ===================================================== */
+.biography b {
+  color: var(--neutral-900);
+  font-weight: 600;
+}
+
+/* =====================================================
+   Date / Signature
+   ===================================================== */
+.date {
+  margin-top: 1.5rem;
+  font-style: italic;
+  color: var(--color-secondary);
+}
+
+/* =====================================================
+   Responsive Design
+   ===================================================== */
+@media (max-width: 1024px) {
+  .intro {
+    padding: 3rem 1.5rem;
+  }
+  .name_text_gry,
+  .name_text_col {
+    font-size: 1.9rem;
+  }
+  .hd1_col {
+    font-size: 1.5rem;
+  }
+  .simple_text {
+    font-size: 0.95rem;
+  }
+  .section_title {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 2.5rem 1.25rem;
+  }
+  .name_text_gry,
+  .name_text_col {
+    font-size: 1.6rem;
+    display: block;
+  }
+  .hd1_col {
+    font-size: 1.25rem;
+  }
+  .biography {
+    padding-left: 1rem;
+    border-left-width: 2px;
+  }
+  .list {
+    padding-left: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hd2 {
+    font-size: 0.75rem;
+  }
+  .simple_text {
+    font-size: 0.9rem;
+  }
+  .list li {
+    margin-bottom: 0.75rem;
+  }
+  .section_title {
+    font-size: 1rem;
+  }
+}

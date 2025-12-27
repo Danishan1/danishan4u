@@ -26,7 +26,7 @@ export const PortfolioHome = () => {
         <p className={styles.hd1}>JKC Softwares</p>
       </div>
 
-      <Link href="/experience">
+      <Link href="/about">
         <div className={styles.btn}>Explore</div>
       </Link>
     </div>
