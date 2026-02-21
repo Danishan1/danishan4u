@@ -1,98 +1,107 @@
-import { skillsAIMaths } from "./ai";
-import { skillsBackend } from "./backend";
-import { skillsFoundation } from "./foundation";
-import { skillsLeadership } from "./leadership";
-import { skillsSoftwareArch } from "./softwareArch";
-import { skillsSystemOs } from "./systemOs";
-import { skillsUI } from "./ui";
+// =====================================
+// THINKING DIMENSIONS (Senior Backend Mindset)
+// =====================================
+export const thinkingDimensions = [
+  { title: "Scalable System Design", metric: "Architecture" },
+  { title: "High-Performance Backend", metric: "Efficiency" },
+  { title: "Database Design & Optimization", metric: "Data" },
+  { title: "API Design & Integration", metric: "Integration" },
+  { title: "Reliability & Fault Tolerance", metric: "Stability" },
+  { title: "Observability & Monitoring", metric: "Production-Readiness" },
+  { title: "Ownership & End-to-End Delivery", metric: "Accountability" },
+];
 
-const thinkingDimensions = [
+// =====================================
+// CORE BACKEND SKILL SET
+// =====================================
+export const skills = [
   {
-    title: "Systems Thinking",
-    description:
-      "Designing software as interconnected systems, accounting for dependencies, failure modes, scalability, and long-term evolution.",
-    iconName: "network",
-    metric: "Interconnectivity",
+    group: "Backend Systems & Architecture",
+    list: [
+      { name: "System Design & Scalability", level: "Advanced", type: "Core" },
+      {
+        name: "Microservices & Modular Architecture",
+        level: "Advanced",
+        type: "Core",
+      },
+      { name: "Event-Driven & Async Systems", level: "Advanced", type: "Core" },
+      { name: "REST & GraphQL API Design", level: "Advanced", type: "Core" },
+      {
+        name: "Caching & Queueing Systems (Redis, Kafka)",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "Load Balancing & Horizontal Scaling",
+        level: "Strong",
+        type: "Core",
+      },
+    ],
   },
   {
-    title: "First-Principles Reasoning",
-    description:
-      "Breaking complex problems down to fundamental truths before selecting abstractions, tools, or frameworks.",
-    iconName: "layers",
-    metric: "Fundamentals",
+    group: "Programming & Backend Tech",
+    list: [
+      { name: "Node.js", level: "Advanced", type: "Core" },
+      { name: "C++", level: "Advanced", type: "Core" },
+      {
+        name: "Python (Scripting & Automation)",
+        level: "Working",
+        type: "Active",
+      },
+      {
+        name: "SQL & NoSQL Databases (MySQL, MongoDB)",
+        level: "Advanced",
+        type: "Core",
+      },
+      { name: "Redis & In-Memory Data Stores", level: "Strong", type: "Core" },
+    ],
   },
   {
-    title: "Risk-Aware Engineering",
-    description:
-      "Engineering with security, reliability, misuse cases, and operational risk considered from the outset.",
-    iconName: "shield",
-    metric: "Resilience",
+    group: "Production & Reliability",
+    list: [
+      { name: "Linux Server Management", level: "Working", type: "Core" },
+      {
+        name: "Nginx / Reverse Proxy Configuration",
+        level: "Working",
+        type: "Core",
+      },
+      {
+        name: "CI/CD Pipelines & Deployment Automation",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "Docker (Containerization Awareness)",
+        level: "Working",
+        type: "Core",
+      },
+      {
+        name: "Monitoring & Logging (Prometheus, Grafana, ELK)",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "Testing & Code Quality (Unit, Integration)",
+        level: "Strong",
+        type: "Core",
+      },
+      { name: "Security & Authentication", level: "Strong", type: "Core" },
+    ],
   },
   {
-    title: "Automation Mindset",
-    description:
-      "Eliminating repetition through automation, tooling, and systemized workflows.",
-    iconName: "cpu",
-    metric: "Leverage",
-  },
-  {
-    title: "Builder’s Mentality",
-    description:
-      "Learning through building, shipping, and iterating on real-world systems.",
-    iconName: "tool",
-    metric: "Execution",
-  },
-  {
-    title: "Architectural Foresight",
-    description:
-      "Making design decisions with future scale, maintainability, and system evolution in mind.",
-    iconName: "blueprint",
-    metric: "Longevity",
-  },
-  {
-    title: "Operational Awareness",
-    description:
-      "Understanding how software behaves in production, from deployment to monitoring and recovery.",
-    iconName: "activity",
-    metric: "Stability",
-  },
-  {
-    title: "Performance Consciousness",
-    description:
-      "Being aware of time, space, and resource constraints across the full software stack.",
-    iconName: "zap",
-    metric: "Efficiency",
-  },
-  {
-    title: "Foundations-Driven Intelligence",
-    description:
-      "Approaching AI and automation through mathematical, algorithmic, and systems-level foundations.",
-    iconName: "brain",
-    metric: "Intelligence",
-  },
-  {
-    title: "Ownership & Accountability",
-    description:
-      "Taking responsibility for systems across their entire lifecycle.",
-    iconName: "check-circle",
-    metric: "Ownership",
+    group: "Leadership & Execution",
+    list: [
+      { name: "Technical Ownership", level: "Advanced", type: "Core" },
+      { name: "Mentoring & Code Reviews", level: "Strong", type: "Core" },
+      { name: "Cross-Functional Collaboration", level: "Strong", type: "Core" },
+      {
+        name: "Project Delivery & Reliability",
+        level: "Advanced",
+        type: "Core",
+      },
+    ],
   },
 ];
 
-const skills = [
-  skillsFoundation,
-  skillsBackend,
-  skillsUI,
-  skillsSoftwareArch,
-  skillsSystemOs,
-  skillsLeadership,
-  skillsAIMaths,
-];
-
-export const getSkills = async () => {
-  return skills;
-};
-
-export const getThinkingDimensions = async () => {
-  return thinkingDimensions;
-};
+export const getSkills = async () => skills;
+export const getThinkingDimensions = async () => thinkingDimensions;

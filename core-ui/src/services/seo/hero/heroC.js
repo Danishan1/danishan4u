@@ -3,26 +3,28 @@ import { ENK } from "#constants";
 export const heroCConfig = {
   [ENK.experience]: {
     type: "C",
-    eyebrow: "Experience Philosophy",
-    headline: { primary: "Building", secondary: "Impact" },
+    eyebrow: "Professional Experience",
+    headline: { primary: "Engineering", secondary: "Impact" },
     summary:
-      "Professional growth and timeline across multiple roles, ventures, and key responsibilities.",
+      "Backend-focused development experience with increasing ownership across architecture, system design, and production delivery.",
     cta: {
       primary: { label: "View Resume", href: "resume" },
-      secondary: { label: "See Blogs", href: "blog" },
+      // secondary: { label: "See Blogs", href: "blog" },
     },
     valueBlocks: [
       {
-        title: "Founder & Builder Experience",
-        description: "Hands-on leadership and product creation",
+        title: "Backend System Design",
+        description: "Designing scalable services and modular architectures.",
       },
       {
-        title: "Key Responsibilities",
-        description: "Cross-functional responsibilities across ventures",
+        title: "End-to-End Ownership",
+        description:
+          "Owning features from design through deployment and optimization.",
       },
       {
-        title: "Cross-Cutting Themes",
-        description: "Leadership, systems thinking, AI & automation",
+        title: "Code Quality & Mentorship",
+        description:
+          "Maintaining engineering standards and guiding developers.",
       },
     ],
   },
@@ -80,40 +82,35 @@ export const heroCConfig = {
   },
   [ENK.contact]: {
     type: "C",
-
     eyebrow: "Contact",
-
     headline: {
-      primary: "Let’s Talk",
-      secondary: "Ideas, Work, or Collaboration",
+      primary: "Let’s Connect",
+      secondary: "Backend & Systems Engineering",
     },
-
     summary:
-      "Whether you have a question, a proposal, or just want to connect — I’m always open to meaningful conversations.",
-
+      "Open to backend engineering roles, system design discussions, and meaningful technical collaboration.",
     cta: {
       primary: {
-        label: "View Journey",
-        href: "journey",
-      },
-      secondary: {
-        label: "View Work",
+        label: "View Projects",
         href: "project",
       },
+      secondary: {
+        label: "View Experience",
+        href: "experience",
+      },
     },
-
     valueBlocks: [
       {
-        title: "Collaboration",
-        description: "Open to startups, research, and long-term ventures.",
+        title: "Backend Roles",
+        description: "SDE-II and backend engineering opportunities.",
       },
       {
-        title: "Consulting",
-        description: "Architecture, systems design, and strategy.",
+        title: "Architecture Discussions",
+        description: "System design, scalability, and performance engineering.",
       },
       {
-        title: "Speaking",
-        description: "Talks, workshops, and knowledge sharing.",
+        title: "Technical Collaboration",
+        description: "Engineering-focused product and platform work.",
       },
     ],
   },

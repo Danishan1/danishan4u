@@ -121,24 +121,20 @@ export const heroEConfig = {
     },
     background: {
       type: "image",
-      src: "https://images.unsplash.com/photo-1605493666700-0716438e655c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "https://images.unsplash.com/photo-1605493666700-0716438e655c?q=80&w=1470&auto=format&fit=crop",
     },
-    context: "About Me",
+    context: "About",
     headline: {
-      primary: "Builder, Thinker,",
-      emphasized: "Systems Architect",
+      primary: "Backend Engineer",
+      emphasized: "Designing Scalable Systems",
     },
     description:
-      "I focus on designing systems that scale — technically, philosophically, and operationally. My work blends engineering depth with long-term vision.",
+      "I build reliable backend systems with a focus on scalability, performance, and long-term maintainability. My work blends strong engineering fundamentals with real-world production experience.",
     cta: {
       primary: {
         label: "View Journey",
         href: "journey",
       },
-      // secondary: {
-      //   label: "My Philosophy",
-      //   href: "/blog/philosophy",
-      // },
     },
   },
 };

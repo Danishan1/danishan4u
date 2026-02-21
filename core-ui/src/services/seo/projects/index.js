@@ -26,6 +26,7 @@ const projects = [
       {
         code: "itsrighttime",
         name: "itsRIGHTtime",
+        link: "https://danishan4u.in",
         description:
           "A multi-domain parent platform showcasing a diverse ecosystem of ventures across technology, creative services, food, fashion, and startup support, built with a focus on structured content and seamless integration.",
       },

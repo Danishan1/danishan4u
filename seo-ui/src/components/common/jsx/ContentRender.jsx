@@ -32,6 +32,13 @@ const RenderCard = ({ info, forWhat, mode = "H" }) => {
           desc={info.description}
           orientation={mode}
           img={getImages(info.code)?.src}
+          {...(info.link
+            ? {
+                link: info.link,
+                linkLabel: "Source Code",
+                colorLink: "var(--color-primary)",
+              }
+            : {})}
         />
       </div>
     ),

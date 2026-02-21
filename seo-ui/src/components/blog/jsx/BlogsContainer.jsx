@@ -7,6 +7,7 @@ import { useSidebarStick } from "../helper/useSidebarStick";
 import { useRouter, usePathname } from "next/navigation";
 import { MyHooks, MyInputs } from "#widgets";
 import { useRef } from "react";
+import { useEffect } from "react";
 
 const {
   Actions: { Button },
@@ -23,6 +24,7 @@ export const BlogsContainer = ({ sidebar, children }) => {
 
   const handleClick = (value) => {
     const base = pathname.split("blog")[0];
+
     router.push(`${base}blog/${value}`);
     setMobileOpen(false); // close on select (mobile)
   };

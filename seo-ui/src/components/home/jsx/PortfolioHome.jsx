@@ -19,9 +19,9 @@ export const PortfolioHome = () => {
           B-Tech (CSE) - Amity University, Uttar Pradesh
         </p>
         <p className={styles.hd2Gry}>
-          Project Technical Lead
-          <span className={styles.break}></span>
-          (Tech Lead)
+          Software Developer Engineer - II{" "}
+          <span className={styles.break}> </span>
+          (SDE-II)
         </p>
         <p className={styles.hd1}>JKC Softwares</p>
       </div>

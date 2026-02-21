@@ -3,47 +3,51 @@ import { ENK } from "#constants";
 export const heroBConfig = {
   [ENK.skill]: {
     type: "B",
-    badge: "Thinking Dimensions ",
+    badge: "Core Expertise",
     title: {
-      line1: "Systems Intelligence",
-      line2: "Engineer",
-      highlight:
-        "Designing scalable software systems today, and building the foundations for intelligent machines tomorrow.",
+      line1: "Backend &",
+      line2: "Distributed",
+      highlight: "Systems Engineering",
     },
     description:
-      "Skills are systems. Intelligence emerges from fundamentals, not frameworks.",
+      "Strong foundations combined with production-level backend development experience.",
     actions: [
       // { label: "Explore Skills", href: "#skills", type: "primary" },
       // { label: "Skill Depth", href: "#depth", type: "secondary" },
     ],
     visualCard: {
-      title: "Core Skill Domains",
+      title: "Key Skill Areas",
       points: [
-        "Dsign, Develop & Deploy",
-        "Engineering & Systems",
-        "Security, Compliance & Trust",
-        "Product & Platform Thinking",
-        "AI & Automation",
-        "Leadership & Execution",
+        "Backend Architecture & API Design",
+        "Distributed Systems & Scalability",
+        "Performance & Reliability Engineering",
+        "Data Structures & Algorithms",
+        "System Design & Trade-offs",
+        "Mentorship & Technical Ownership",
       ],
     },
   },
 
   [ENK.project]: {
     type: "B",
-    badge: "Project Philosophy",
-    title: { line1: "Building", line2: "Products", highlight: "Platforms" },
-    description: "Featured projects, categories, and real-world impact.",
+    badge: "Engineering Work",
+    title: {
+      line1: "Systems &",
+      line2: "Backend",
+      highlight: "Projects",
+    },
     actions: [
       // { label: "Explore Projects", href: "#projects", type: "primary" },
     ],
+    description:
+      "Selected work demonstrating backend architecture, scalability, and real-world problem solving.",
     visualCard: {
-      title: "Project Categories",
+      title: "Project Focus Areas",
       points: [
-        "Platforms & Products",
-        "Infrastructure & Systems",
-        "AI & Automation",
-        "Experiments & R&D",
+        "Backend Services & APIs",
+        "Performance-Critical Systems",
+        "Scalable Application Design",
+        "Architecture Experiments",
       ],
     },
   },

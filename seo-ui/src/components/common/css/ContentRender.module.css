@@ -10,7 +10,7 @@
   text-align: center;
   font-size: calc(3 * var(--size));
   font-weight: var(--boldL3);
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .subtitle {

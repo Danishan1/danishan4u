@@ -9,77 +9,63 @@ export const getTimelineConfig = async () => {
       component: {
         type: "milestone",
         data: {
-          title: "College",
-          subtitle: "B-Tech, Amity University",
+          title: "B-Tech, Computer Science",
+          subtitle: "Amity University, Uttar Pradesh",
           description:
-            "Completed undergraduate studies while exploring extracurricular opportunities.",
+            "Completed undergraduate studies with a focus on software engineering, data structures, and system design.",
         },
         iconName: "schoolIcon",
       },
     },
 
     /* =====================================================
-     2. EVENT – FIRST HOST
-    ===================================================== */
-    {
-      label: "Nov 2022",
-      side: "right",
-      component: {
-        type: "event",
-        data: {
-          name: "First Time Hosting Event",
-          location: "Stage Event",
-          date: "Nov 2022",
-          description:
-            "Hosted an event on stage for the first time, marking a public speaking milestone.",
-        },
-      },
-    },
-
-    /* =====================================================
-     3. INTERNSHIP – EXPERIENCE
+     2. INTERNSHIP – EXPERIENCE
     ===================================================== */
     {
       label: "May 2023 - Aug 2023",
       component: {
         type: "experience",
         data: {
-          role: "Intern",
+          role: "Software Development Intern",
           org: "JKC Softwares LLP",
           period: "May 2023 - Aug 2023",
           description:
-            "Gained hands-on experience in industry projects and team collaboration.",
+            "Gained hands-on experience in backend development and collaborative project delivery.",
         },
         responsibilities: [
-          "Learning",
-          "Assisting projects",
-          "Skill development",
+          "Implemented backend features and APIs",
+          "Worked in cross-functional teams",
+          "Learned deployment and version control practices",
         ],
-        list: ["Technology used", "Tools", "Processes"],
+        list: ["Node.js", "React", "Git", "REST APIs"],
       },
     },
 
     /* =====================================================
-     4. SDE-I – EXPERIENCE
+     3. SDE-I – EXPERIENCE
     ===================================================== */
     {
       label: "Nov 2023 - Mar 2025",
       component: {
         type: "experience",
         data: {
-          role: "SDE-I",
+          role: "Software Development Engineer I (SDE-I)",
           org: "JKC Softwares LLP",
           period: "Nov 2023 - Mar 2025",
           description:
-            "Worked on development tasks, collaborating with cross-functional teams.",
+            "Developed scalable full-stack applications and collaborated on backend architecture design.",
         },
-        responsibilities: ["Coding", "Code reviews", "Feature implementation"],
-        list: ["Java", "Python", "Git"],
+        responsibilities: [
+          "Feature implementation and optimization",
+          "Code reviews and testing",
+          "Collaborating with QA, product, and design teams",
+        ],
+        list: ["Node.js", "C++", "MongoDB", "MERN Stack", "Git"],
       },
     },
 
     /* =====================================================
-     5. TEAM FACILITATOR – EXPERIENCE
+     4. TEAM FACILITATOR – EXPERIENCE
     ===================================================== */
     {
       label: "Jan 2025 - Mar 2025",
@@ -91,52 +77,36 @@ export const getTimelineConfig = async () => {
           org: "JKC Softwares LLP",
           period: "Jan 2025 - Mar 2025",
           description:
-            "Led team activities and coordinated project tasks to improve efficiency.",
+            "Facilitated team collaboration, aligned project execution with business goals, and improved development efficiency.",
         },
       },
     },
 
     /* =====================================================
-     6. FREELANCE START – MILESTONE
-    ===================================================== */
-    {
-      label: "Sep 2025",
-      side: "right",
-      component: {
-        type: "milestone",
-        data: {
-          title: "Started Freelance Journey",
-          subtitle: "Independent Work",
-          description:
-            "Embarked on a freelance career, taking ownership of projects and clients.",
-        },
-        iconName: "freelanceIcon",
-      },
-    },
-
-    /* =====================================================
-     7. TECHNICAL PROJECT LEAD – EXPERIENCE
+     5. SDE-II / TECHNICAL PROJECT LEAD – EXPERIENCE
     ===================================================== */
     {
       label: "Mar 2025 - Present",
       component: {
         type: "experience",
         data: {
-          role: "Technical Project Lead",
+          role: "Software Development Engineer II (SDE-II)",
           org: "JKC Softwares LLP",
           period: "Mar 2025 - Present",
           description:
-            "Leading technical projects, mentoring team members, and ensuring timely delivery.",
+            "Lead backend development of scalable production systems, driving architecture decisions, performance optimization, and technical mentorship.",
         },
         responsibilities: [
-          "Project planning",
-          "Technical guidance",
-          "Team collaboration",
+          "Architecting and implementing backend services",
+          "End-to-end feature ownership from design to deployment",
+          "Mentoring engineers and conducting structured code reviews",
+          "Optimizing performance and reliability of distributed systems",
         ],
         list: [
-          "Project Management",
-          "Technology Leadership",
-          "Problem Solving",
+          "Node.js, C++",
+          "REST APIs & Microservices",
+          "Database Optimization",
+          "System Design & Scalability",
         ],
       },
     },

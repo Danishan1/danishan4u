@@ -3,7 +3,7 @@ export const getUsernameList = () => {
     {
       username: "danishan",
       name: "Danishan Farookh",
-      bio: "Technical Project Lead",
+      bio: "Software Developer Engineer - II ",
     },
     { username: "johndoe", name: "John Doe", bio: "Software Engineer" },
     { username: "janedoe", name: "Jane Doe", bio: "Product Manager" },

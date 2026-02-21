@@ -25,7 +25,8 @@ export function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        <div className={styles.userInfo}>
+        <p className={styles.textTemp}>Danishan Farookh @ 2026</p>
+        {/* <div className={styles.userInfo}>
           <p className={styles.name}>{user.name}</p>
           <p className={styles.username}>~{user.username}</p>
           <p className={styles.bio}>{user.bio}</p>
@@ -41,7 +42,7 @@ export function Footer() {
               {item.label}
             </Link>
           ))}
-        </div>
+        </div> */}
       </footer>
     </>
   );

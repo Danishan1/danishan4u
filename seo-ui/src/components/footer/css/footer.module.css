@@ -1,5 +1,5 @@
 .footer {
-  height: 300px;
+  /* height: 300px; */
   border-top: 2px solid var(--neutral-200);
   margin-top: 100px;
   padding: 10px 0;
@@ -7,6 +7,13 @@
   gap: 20px;
   align-items: space-between;
   justify-content: center;
+}
+
+.textTemp {
+  /* border: 1px solid red; */
+  /* padding-bottom: 5px; */
+  font-weight: var(--boldL3);
+  color: var(--colorGray4);
 }
 
 .userInfo {

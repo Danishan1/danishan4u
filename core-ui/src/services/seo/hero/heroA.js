@@ -3,52 +3,50 @@ import { ENK } from "#constants";
 export const heroAConfig = {
   [ENK.journey]: {
     type: "A",
-    badge: "My Journey",
+    badge: "Professional Journey",
     title: {
-      line1: "My",
-      line2: "Journey",
-      highlight: "Highlights",
+      line1: "Engineering",
+      line2: "Growth &",
+      highlight: "Milestones",
     },
     description:
-      "From building strong foundations in college to leading technical projects and freelancing independently, this timeline showcases my growth, key milestones, and professional achievements.",
+      "A focused progression from foundational development to backend ownership and architectural responsibility in production systems.",
     actions: [
       { label: "Explore Projects", href: "project", type: "primary" },
-      { label: "Lessons Learned (Blogs)", href: "blog", type: "secondary" },
+      { label: "Read Technical Blogs", href: "blog", type: "secondary" },
     ],
     visualCard: {
-      title: "Timeline Phases",
+      title: "Career Highlights",
       points: [
-        "College and Early Learning",
-        "Public Speaking & Internships",
-        "SDE-I and Team Leadership",
-        "Freelance Projects",
-        "Technical Project Lead",
-        "Looking for SDE-II or a related role",
+        "Computer Science Foundations",
+        "Full-Stack Development (MERN)",
+        "Backend System Ownership",
+        "Architecture & Performance Optimization",
+        "Mentorship & Code Reviews",
+        "Operating at SDE-II Level",
       ],
     },
   },
 
   [ENK.blog]: {
     type: "A",
-    badge: "Blog & Research",
+    badge: "Technical Writing",
     title: {
-      line1: "Insights",
-      line2: "From My",
-      highlight: "Writing",
+      line1: "Engineering",
+      line2: "Insights &",
+      highlight: "System Design",
     },
     description:
-      "Home to Essays, Research Highlights, and Knowledge Mapping across Projects and Talks.",
-    actions: [
-      { label: "Explore Blog", href: "#blog-index", type: "primary" },
-      { label: "Subscribe Updates", href: "#subscribe", type: "secondary" },
-    ],
+      "Articles and notes focused on backend architecture, system design, and engineering fundamentals.",
+    actions: [{ label: "Explore Blog", href: "#blog-index", type: "primary" }],
     visualCard: {
-      title: "Content Highlights",
+      title: "Topics Covered",
       points: [
-        "Featured Essays & Research",
-        "Categories & Series",
-        "Knowledge Graph / Idea Map",
-        "Cross-Linking Hub: Projects, Talks,Studies",
+        "Backend Architecture",
+        "Distributed Systems Concepts",
+        "Performance Optimization",
+        "System Design Case Studies",
+        "Core Computer Science Foundations",
       ],
     },
   },
