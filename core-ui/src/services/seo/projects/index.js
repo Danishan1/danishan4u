@@ -26,6 +26,10 @@ const projects = [
             label: "Setup Guide",
             href: "https://github.com/itsrighttime/self-hosted-mail-server",
           },
+          {
+            label: "Setup Script",
+            href: "https://github.com/itsrighttime/mail-server-script",
+          },
         ],
         description:
           "Built a secure mail server capable of sending and receiving emails, implementing authentication, spam protection, and persistence of email data in a MySQL database for auditing and management.",
