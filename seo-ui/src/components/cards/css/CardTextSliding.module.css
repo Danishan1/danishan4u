@@ -1,0 +1,110 @@
+.card {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+  display: flex;
+  align-items: flex-end;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Dark gradient overlay */
+.overlay {
+  width: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.85) 20%,
+    rgba(0, 0, 0, 0.4) 70%,
+    transparent 100%
+  );
+  padding: 1.5rem;
+  color: var(--neutral-0);
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+/* Title always visible */
+.title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--color-white);
+  border-bottom: 3px solid var(--color-primary);
+}
+
+/* Sliding panel */
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* On hover expand */
+.card:hover .content {
+  max-height: 220px;
+}
+
+/* Scrollable description */
+.description {
+  overflow-y: auto;
+  max-height: 120px;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  padding-right: 5px;
+}
+
+.description p {
+  color: var(--neutral-0);
+}
+
+/* Buttons */
+.actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.button {
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  border: none;
+  border-radius: var(--border-radius-sm);
+  background: var(--color-primary);
+  color: var(--neutral-0);
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background: var(--color-secondary);
+}
+
+/* ===============================
+   RESPONSIVE BEHAVIOR
+   =============================== */
+
+/* Desktop → Horizontal Card */
+@media (min-width: 768px) {
+  .card {
+    height: 260px;
+  }
+}
+
+/* Mobile → Vertical (taller than width) */
+@media (max-width: 767px) {
+  .card {
+    height: 420px;
+  }
+}

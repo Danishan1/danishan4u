@@ -9,6 +9,7 @@ const projects = [
       {
         code: "server",
         name: "Custom App Server Infrastructure",
+        actions: [{ label: "Setup Guide", href: "https://github.com/itsrighttime/self-hosted-mail-server" }],
         description:
           "Designed and managed custom application servers deployed on VPS and physical machines, handling Node.js applications, Nginx configuration, reverse proxying, SSL setup, and production-grade deployment workflows.",
       },

@@ -1,8 +1,9 @@
+import { CardTextSliding } from "../../cards/jsx/CardTextSliding";
 import { getImages } from "#stores";
 import { MyCards, MyHooks } from "#widgets";
 import styles from "../css/ContentRender.module.css";
 
-const { CardProduct, CardExperience, CardTextSliding } = MyCards;
+const { CardProduct, CardExperience } = MyCards;
 
 const RenderCard = ({ info, forWhat, mode = "H" }) => {
   const temp = {
@@ -28,17 +29,10 @@ const RenderCard = ({ info, forWhat, mode = "H" }) => {
     projects: (
       <div className={styles.slidingCard}>
         <CardTextSliding
-          productName={info.name}
-          desc={info.description}
-          orientation={mode}
-          img={getImages(info.code)?.src}
-          {...(info.link
-            ? {
-                link: info.link,
-                linkLabel: "Source Code",
-                colorLink: "var(--color-primary)",
-              }
-            : {})}
+          title={info.name}
+          description={info.description}
+          image={getImages(info.code)?.src}
+          actions={info.actions || [{ label: "Button" }]}
         />
       </div>
     ),
