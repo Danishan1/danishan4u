@@ -1,27 +1,25 @@
-import { MyCards } from "#widgets";
-import styles from "../css/Skills.module.css";
+import styles from "../css/ThinkingDimensions.module.css";
+import { COLOR } from "../helper/colors";
 
-const { CardAchievement } = MyCards;
-
-export const ThinkingDimention = ({ content, metaInfo }) => {
-
+export const ThinkingDimensions = ({ data = [] }) => {
   return (
-    <div className={styles.contentRender}>
-      <p className={styles.title}>{metaInfo.title}</p>
+    <section className={styles.container}>
+      <h2 className={styles.heading}>Thinking Dimensions</h2>
 
-      <div className={styles.cards}>
-        {content.map((c) => {
-          return (
-            <CardAchievement
-              key={c.title}
-              title={c.title}
-              description={c.description}
-              iconName={c.iconName}
-              metric={c.metric}
-            />
-          );
-        })}
+      <div className={styles.grid}>
+        {data.map((item, index) => (
+          <div key={index} className={styles.card}>
+            <h3
+              className={styles.title}
+              style={{ color: COLOR[(index + 1) % COLOR.length] }}
+            >
+              {item.title}
+            </h3>
+
+            <span className={styles.metric}>{item.metric}</span>
+          </div>
+        ))}
       </div>
-    </div>
+    </section>
   );
 };

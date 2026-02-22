@@ -10,12 +10,10 @@
 }
 
 .textTemp {
-  /* border: 1px solid red; */
-  /* padding-bottom: 5px; */
   font-weight: var(--boldL3);
   color: var(--colorGray4);
 }
-
+/* 
 .userInfo {
 }
 
@@ -110,4 +108,4 @@
     text-align: center;
     font-size: calc(1 * var(--size));
   }
-}
+} */

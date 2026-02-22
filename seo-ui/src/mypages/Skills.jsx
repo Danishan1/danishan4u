@@ -1,16 +1,18 @@
 "use client";
 
 import {
-  ContentRender,
-  ContentRenderList,
+  // ContentRender,
+  // ContentRenderList,
   HeroSection,
-  ThinkingDimention,
+  ThinkingDimensions,
+  Skills as SkillsSection,
+  TechBrandLogo,
 } from "#components";
-import { MyHooks, MyPages } from "#widgets";
+// import { MyHooks, MyPages } from "#widgets";
 import { useHeroDetails, ENK, useSkills } from "core-ui";
 
 import { Loading } from "#components";
-const { useScrollPoints } = MyHooks;
+// const { useScrollPoints } = MyHooks;
 
 export const Skills = () => {
   const { config, loading, error } = useHeroDetails(ENK.skill);
@@ -20,18 +22,23 @@ export const Skills = () => {
     error: skillError,
   } = useSkills();
 
-  const { containerRef, registerPoint, scrollTo } = useScrollPoints();
+  // const { containerRef, registerPoint, scrollTo } = useScrollPoints();
 
-  if (loading && skillLoading) return <Loading/>;
+  if (loading && skillLoading) return <Loading />;
 
   return (
-    <section ref={containerRef}>
+    // <section ref={containerRef}>
+    <section>
       <HeroSection config={config} />
-      <ThinkingDimention
-        content={skillConfig.thinkingDimension}
+      <ThinkingDimensions
+        data={skillConfig.thinkingDimension}
         metaInfo={skillConfig.metaInfo.thinkingDimension}
       />
-      <ContentRender
+
+      <SkillsSection data={skillConfig.skillset} />
+      <TechBrandLogo />
+
+      {/* <ContentRender
         content={skillConfig.skillset}
         metaInfo={skillConfig.metaInfo.skillset}
         registerPoint={registerPoint}
@@ -41,7 +48,7 @@ export const Skills = () => {
         skills={skillConfig.sidebar}
         buttonLabel={skillConfig.metaInfo.skillset.title}
         scrollTo={scrollTo}
-      />
+      /> */}
     </section>
   );
 };

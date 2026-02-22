@@ -1,3 +1,5 @@
+export { TechBrandLogo } from "./skills/jsx/TechBrandLogo.jsx";
+export { Skills } from "./skills/jsx/Skills.jsx";
 export { AboutPage } from "./about/jsx/AboutPage.jsx";
 export { PortfolioHome } from "./home/jsx/PortfolioHome.jsx";
 export { Loading } from "./common/jsx/Loading.jsx";
@@ -5,7 +7,7 @@ export { BlogsContainer } from "./blog/jsx/BlogsContainer.jsx";
 export { MarkdownRenderer } from "./markdown/jsx/MarkdownRenderer.jsx";
 export { ContentRenderList } from "./common/jsx/ContentRenderList.jsx";
 export { ContentRender } from "./common/jsx/ContentRender.jsx";
-export { ThinkingDimention } from "./skills/jsx/ThinkingDimension.jsx";
+export { ThinkingDimensions } from "./skills/jsx/ThinkingDimension.jsx";
 export { Footer } from "./footer/jsx/Footer.jsx";
 export { HeroSection } from "./hero/jsx/HeroSection.jsx";
 export { PageNavigator } from "./common/jsx/PageNavigator.jsx";

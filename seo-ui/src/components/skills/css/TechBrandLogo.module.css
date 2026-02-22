@@ -1,0 +1,41 @@
+.techBrandLogo {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-size: calc(3.5 * var(--size));
+  text-align: center;
+  padding: 20px 0;
+}
+
+.icon svg {
+  height: 45px;
+  width: auto;
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: calc(3 * var(--size));
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: calc(2.5 * var(--size));
+  }
+  .icon svg {
+    height: 40px;
+    width: auto;
+  }
+}
+
+@media (max-width: 300px) {
+  .title {
+    font-size: calc(1.5 * var(--size));
+  }
+}
