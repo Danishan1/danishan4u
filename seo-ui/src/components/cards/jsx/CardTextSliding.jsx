@@ -22,7 +22,7 @@ export const CardTextSliding = ({
               <button
                 key={index}
                 className={styles.button}
-                onClick={() => (window.location.href = action.href)}
+                onClick={() => window.open(action.href, "_blank")}
               >
                 {action.label}
               </button>

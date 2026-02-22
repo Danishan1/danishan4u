@@ -32,7 +32,7 @@ const RenderCard = ({ info, forWhat, mode = "H" }) => {
           title={info.name}
           description={info.description}
           image={getImages(info.code)?.src}
-          actions={info.actions || [{ label: "Button" }]}
+          actions={info.actions}
         />
       </div>
     ),
