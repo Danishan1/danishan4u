@@ -1,21 +1,20 @@
 export const PAGE_SEO = {
   home: {
-    title: "Danishan | Systems Intelligence Engineer | Backend & AI Systems",
+    title: "Danishan | Software Development Engineer | Backend Systems | Node.js & C++ ",
     description:
-      "Systems Intelligence Engineer specializing in scalable backend systems, Node.js architecture, and AI foundations in C++. Based in Delhi NCR.",
+      "Backend-focused Software Engineer building scalable systems in Node.js & C++.",
     keywords: [
       "systems intelligence engineer",
       "backend systems engineer",
       "node.js technical lead",
       "c++ systems developer",
-      "ai systems engineer india",
     ],
   },
 
   about: {
-    title: "About Danishan | Systems Intelligence Engineer",
+    title: "About Danishan | Software Development Engineer ",
     description:
-      "Learn about Danishan, a Systems Intelligence Engineer focused on scalable backend systems, C++ foundations, and intelligent machines.",
+      "Learn about Danishan, Backend-focused Software Engineer building scalable systems in Node.js & C++.",
     keywords: [
       "about systems engineer",
       "backend engineer delhi",
@@ -26,34 +25,32 @@ export const PAGE_SEO = {
   journey: {
     title: "My Journey | From Computation to Intelligent Systems",
     description:
-      "A timeline of my journey from computer science fundamentals to building scalable and intelligent systems.",
+      "A timeline of my journey from computer science fundamentals to building scalable systems.",
     keywords: [
       "engineering journey",
       "systems engineering path",
-      "ai engineer journey",
     ],
   },
 
   skill: {
-    title: "Skills | Systems, Backend & AI Foundations",
+    title: "Skills | Systems, Backend Foundations",
     description:
-      "Explore my skills in backend systems, Node.js architecture, C++, AI fundamentals, and engineering leadership.",
+      "Explore my skills in backend systems, Node.js architecture, C++ and engineering leadership.",
     keywords: [
       "backend engineering skills",
       "systems thinking",
-      "c++ ai fundamentals",
+      "c++ fundamentals",
       "node.js architecture",
     ],
   },
 
   blog: {
-    title: "Blog | Systems Thinking, Backend & AI",
+    title: "Blog | Systems Thinking, Backend",
     description:
-      "Technical writing on systems thinking, backend architecture, and learning AI from first principles.",
+      "Technical writing on systems thinking, backend architecture.",
     keywords: [
       "systems thinking blog",
       "backend architecture articles",
-      "ai from scratch c++",
     ],
   },
 
@@ -69,7 +66,7 @@ export const PAGE_SEO = {
   },
 
   project: {
-    title: "Projects | Scalable Systems & Intelligent Experiments",
+    title: "Projects | Scalable Systems | Node.js & C++ | Scalable Architecture",
     description:
       "A collection of backend systems, scalable architectures, and intelligent system experiments.",
     keywords: [
@@ -80,16 +77,16 @@ export const PAGE_SEO = {
   },
 
   contact: {
-    title: "Contact | Work With a Systems Intelligence Engineer",
+    title: "Contact | Work With a Software Development Engineer",
     description:
-      "Get in touch to collaborate on backend systems, intelligent platforms, or engineering leadership roles.",
+      "Get in touch to collaborate on backend systems, or engineering leadership roles.",
     keywords: ["contact systems engineer", "hire backend engineer india"],
   },
 
   resume: {
-    title: "Resume | Danishan – Systems Intelligence Engineer",
+    title: "Resume | Danishan – Software Development Engineer",
     description:
-      "Download the resume of Danishan, a Systems Intelligence Engineer with backend and AI foundations.",
+      "Download the resume of Danishan, a Software Development Engineer with backend.",
     keywords: [
       "systems engineer resume",
       "backend engineer resume",

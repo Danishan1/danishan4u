@@ -42,7 +42,7 @@ export const IconSection = () => {
       </a>
 
       {/* <!-- Leetcode Icon --> */}
-      <a
+      {/* <a
         target="_blank"
         className={styles.leetcode}
         href="https://leetcode.com/danishan/"
@@ -53,7 +53,7 @@ export const IconSection = () => {
           height="24"
           width="24"
         />
-      </a>
+      </a> */}
 
       {/* <!-- Linkdin Icon --> */}
       <a

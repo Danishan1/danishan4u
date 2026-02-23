@@ -12,12 +12,13 @@ export const metadata = {
   metadataBase: new URL(getEndpoint()),
 
   title: {
-    default: "Danishan | Systems Intelligence Engineer",
+    default:
+      "Danishan | Software Development Engineer | Backend Systems | Node.js & C++",
     template: "%s | Danishan",
   },
 
   description:
-    "Systems Intelligence Engineer specializing in scalable backend systems, Node.js architecture, and AI foundations in C++. Based in Delhi NCR.",
+    "Backend-focused Software Engineer building scalable systems in Node.js & C++.",
 
   openGraph: {
     siteName: "Danishan",
