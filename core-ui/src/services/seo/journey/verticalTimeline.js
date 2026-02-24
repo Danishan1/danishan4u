@@ -22,13 +22,13 @@ export const getTimelineConfig = async () => {
      2. INTERNSHIP – EXPERIENCE
     ===================================================== */
     {
-      label: "May 2023 - Aug 2023",
+      label: "May 2023 - Nov 2023",
       component: {
         type: "experience",
         data: {
           role: "Software Development Intern",
           org: "JKC Softwares LLP",
-          period: "May 2023 - Aug 2023",
+          period: "May 2023 - Nov 2023",
           description:
             "Gained hands-on experience in backend development and collaborative project delivery.",
         },
@@ -64,26 +64,10 @@ export const getTimelineConfig = async () => {
       },
     },
 
-    /* =====================================================
-     4. TEAM FACILITATOR – EXPERIENCE
-    ===================================================== */
-    {
-      label: "Jan 2025 - Mar 2025",
-      side: "left",
-      component: {
-        type: "experience",
-        data: {
-          role: "Team Facilitator",
-          org: "JKC Softwares LLP",
-          period: "Jan 2025 - Mar 2025",
-          description:
-            "Facilitated team collaboration, aligned project execution with business goals, and improved development efficiency.",
-        },
-      },
-    },
+
 
     /* =====================================================
-     5. SDE-II / TECHNICAL PROJECT LEAD – EXPERIENCE
+     4. SDE-II / TECHNICAL PROJECT LEAD – EXPERIENCE
     ===================================================== */
     {
       label: "Mar 2025 - Present",

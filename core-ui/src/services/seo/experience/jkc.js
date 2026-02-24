@@ -25,8 +25,9 @@ export const jkcExperience = {
         "Distributed Systems",
         "CI/CD & DevOps Collaboration",
       ],
-      description:
-        "Experienced SDE-II skilled in building scalable backend systems, leading architecture decisions, and mentoring engineers, with expertise in Node.js, C++, and optimizing performance in distributed environments.",
+      description: `Design and implement scalable backend systems using Node.js and C++. Lead end-to-end development of critical features from 
+         architecture to production deployment. Improve system performance, reliability, and distributed workflows. 
+         Conduct code reviews, mentor junior engineers, and contribute to design decisions.`,
     },
 
     {
@@ -52,13 +53,13 @@ export const jkcExperience = {
         "System Optimization",
         "Full-Stack Development",
       ],
-      description:
-        "Worked as a full-stack engineer focused on building scalable, efficient applications while collaborating across teams to deliver reliable and high-quality software.",
+      description: `Developed and optimized backend services and MERN-based applications. Built scalable REST APIs 
+      and improved database query performance. Contributed to system architecture decisions and production deployments. `,
     },
     {
-      role: "Web Development Intern",
+      role: "Software Development Intern",
       org: "JKC Softwares LLP",
-      period: "May 2023 - Aug 2023",
+      period: "May 2023 - Nov 2023",
       responsiblities: [
         "Developed responsive web interfaces using React.js",
         "Implemented backend APIs using Express.js",
@@ -77,7 +78,8 @@ export const jkcExperience = {
         "Axios",
       ],
       description:
-        "Completed a remote internship focusing on web development, gaining hands-on experience in frontend, backend, and database-driven applications.",
+        `Built and enhanced backend modules under senior guidance. Assisted in API development, debugging production issues, and performance tuning. 
+          Contributed to feature delivery in live production systems.`,
     },
   ],
 };
