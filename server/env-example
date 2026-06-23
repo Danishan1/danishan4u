@@ -1,0 +1,2 @@
+PORT = 5008
+LOG_TYPES=error,warn,info

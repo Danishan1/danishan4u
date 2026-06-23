@@ -13,6 +13,8 @@ import socketio from "./socketio.png";
 import uicomponent from "./uicomponent.png";
 import utils from "./utils.png";
 import casgampro from "./casgampro.png";
+import nexus from "./nexus.png";
+import blog from "./blog.png";
 
 const images = {
   broadcast,
@@ -30,6 +32,8 @@ const images = {
   uicomponent,
   utils,
   casgampro,
+  nexus,
+  blog,
 };
 
 export const getImages = (name) => {

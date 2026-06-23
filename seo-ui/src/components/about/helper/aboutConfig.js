@@ -11,7 +11,7 @@ export const aboutData = {
     {
       title: "Professional Summary",
       paragraphs: [
-        "I am a backend-focused Software Development Engineer with ~3 years of experience building scalable, production-grade systems.",
+        "I am a backend-focused Software Development Engineer with 3+ years of experience building scalable, production-grade systems.",
         "My work centers around backend architecture, distributed systems, and performance optimization. I design, implement, and maintain reliable services that operate under real-world constraints.",
         "I value clarity in design, simplicity in implementation, and long-term maintainability in software systems.",
       ],

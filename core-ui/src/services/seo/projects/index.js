@@ -145,21 +145,46 @@ const projects = [
           "A creative services showcase website highlighting a wide range of design, crafting, and service offerings across multiple divisions, departments, and specialized areas with a strong emphasis on branding and presentation.",
       },
       {
-        code: "dev",
-        name: "itsRIGHTtime Dev",
+        code: "nexus",
+        name: "iRtNexus",
+        actions: [
+          {
+            label: "Product Overview",
+            href: "https://nexus.itsrighttime.group/",
+          },
+        ],
+        description:
+          "An enterprise operating platform designed to unify organizational structure, communication, workflows, execution, and operational intelligence into a single connected system. Nexus enables teams to collaborate efficiently, improve visibility, strengthen accountability, and transform organizational activity into measurable outcomes.",
+      },
+      {
+        code: "blog",
+        name: "iRt Blog",
         actions: [
           {
             label: "Website",
-            href: "https://dev.itsrighttime.group/",
+            href: "https://xdtl.itsrighttime.group/blog/",
+          },
+        ],
+        description:
+          "A knowledge-sharing and thought leadership platform focused on technology, business operations, organizational systems, product development, and innovation. Built to publish insights, frameworks, research, and practical guides that help individuals and organizations operate more effectively.",
+      },
+
+      {
+        code: "dev",
+        name: "xTDL",
+        actions: [
+          {
+            label: "Website",
+            href: "https://xtdl.itsrighttime.group/",
           },
           {
             label: "UI Source Code",
-            href: "https://github.com/itsrighttime/dev-ui",
+            href: "https://github.com/itsrighttime/irt-dev-v2",
           },
-          {
-            label: "Server Source Code",
-            href: "https://github.com/itsrighttime/dev-server",
-          },
+          // {
+          //   label: "Server Source Code",
+          //   href: "https://github.com/itsrighttime/dev-server",
+          // },
         ],
         description:
           "A developer-focused platform presenting software development services, scalable solutions, and technical capabilities within a unified digital ecosystem.",
