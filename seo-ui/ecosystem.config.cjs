@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "ui-danishan4u",
       script: "pnpm",
-      args: "dev",
+      args: "start",
       env: {
         PORT: 3008,
         NODE_ENV: "production",
