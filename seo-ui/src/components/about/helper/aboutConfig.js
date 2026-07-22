@@ -2,7 +2,7 @@ export const aboutData = {
   meta: {
     title: "ABOUT — Danishan Farookh",
     name: "Danishan Farookh",
-    role: "Software Development Engineer · Backend Systems",
+    role: "Backend Software Engineer · Distributed Systems",
     location: "Delhi NCR, India",
     date: "2026",
   },
@@ -11,74 +11,97 @@ export const aboutData = {
     {
       title: "Professional Summary",
       paragraphs: [
-        "I am a backend-focused Software Development Engineer with 3+ years of experience building scalable, production-grade systems.",
-        "My work centers around backend architecture, distributed systems, and performance optimization. I design, implement, and maintain reliable services that operate under real-world constraints.",
-        "I value clarity in design, simplicity in implementation, and long-term maintainability in software systems.",
+        "I'm a Backend Software Engineer with 3+ years of professional experience designing and building scalable backend systems, distributed services, and production-grade applications.",
+        "Over the years, I've progressed from Software Developer Intern to Software Development Engineer II, working across enterprise platforms, backend infrastructure, real-time systems, deployment automation, and business-critical applications.",
+        "I enjoy solving engineering problems that involve scalability, system design, distributed architectures, and production reliability. My focus is always on building software that is maintainable, performant, and designed to evolve.",
       ],
     },
 
     {
-      title: "What I Do",
+      title: "What I Build",
       list: [
-        "Design and implement scalable backend services using Node.js and C++",
-        "Own features end-to-end — from system design to deployment and optimization",
-        "Contribute to architectural decisions for performance-sensitive systems",
-        "Improve reliability, latency, and throughput in distributed environments",
-        "Conduct code reviews and mentor engineers on clean architecture and engineering fundamentals",
+        "Scalable backend systems and enterprise platforms",
+        "REST APIs and service-oriented applications",
+        "Distributed systems and event-driven architectures",
+        "Infrastructure automation and deployment platforms",
+        "Real-time communication and messaging systems",
+        "Developer tools and backend engineering utilities",
       ],
     },
 
     {
-      title: "Technical Focus Areas",
+      title: "Technical Expertise",
       list: [
-        "Backend Architecture & Service Design",
-        "Distributed Systems & Scalability",
-        "Performance Optimization",
-        "System Design & Trade-off Analysis",
-        "Production Reliability & Maintainability",
+        "Backend Architecture",
+        "System Design",
+        "Distributed Systems",
+        "REST API Development",
+        "Database Design & Optimization",
+        "Performance Engineering",
+        "Infrastructure Automation",
+        "Production Engineering",
       ],
     },
 
     {
-      title: "Engineering Foundations",
+      title: "Technology Stack",
+      list: [
+        "Languages: TypeScript, JavaScript, C++, Python, SQL",
+        "Backend: Node.js, Express.js, REST APIs, WebSockets",
+        "Databases: PostgreSQL, MySQL, MongoDB, Redis",
+        "Distributed Systems: Kafka, Redis Pub/Sub, Event-Driven Architecture",
+        "Infrastructure: Docker, Linux, Nginx, PM2, Git",
+      ],
+    },
+
+    {
+      title: "Selected Engineering Work",
       paragraphs: [
-        "My engineering approach is grounded in strong computer science fundamentals:",
+        "Throughout my professional journey, I've contributed to the design and development of systems including:",
       ],
       list: [
-        "Data Structures & Algorithms",
-        "Operating Systems",
-        "Networking",
-        "Database Systems",
-        "Object-Oriented Design & Design Patterns",
+        "Secure Multi-Domain Mail Server Platform",
+        "Automated Application Server Infrastructure",
+        "Organizational Operating Platform",
+        "Distributed Gaming Platform",
+        "Billing & Business Management Software",
       ],
     },
 
     {
-      title: "Current Technical Stack",
+      title: "Engineering Philosophy",
       list: [
-        "Languages: C++, JavaScript (Node.js), Python",
-        "Backend: REST APIs, Service-Oriented Architecture",
-        "Databases: SQL & NoSQL systems",
-        "Tools: Git, Linux, Deployment Pipelines",
+        "Build systems that remain simple as they grow.",
+        "Design with scalability and maintainability from day one.",
+        "Prefer clear architecture over unnecessary complexity.",
+        "Automate repetitive work wherever possible.",
+        "Write software that is easy to understand, operate, and improve.",
       ],
     },
 
     {
-      title: "How I Approach Engineering",
-      list: [
-        "Design for scalability from the beginning",
-        "Prioritize readability and maintainability over clever abstractions",
-        "Balance product delivery with engineering quality",
-        "Make architectural decisions based on constraints and trade-offs",
-        "Ship reliable systems — not just working features",
-      ],
-    },
-
-    {
-      title: "Long-Term Direction",
+      title: "Research",
       paragraphs: [
-        "I am continuously deepening my understanding of system design, distributed systems, and performance engineering.",
-        "My long-term goal is to contribute to large-scale, high-impact systems where strong engineering fundamentals and thoughtful architecture matter.",
+        "I co-authored an IEEE conference publication on speech recognition and natural language processing titled 'My Assistant SRSTC: Speech Recognition and Speech to Text Conversion', presented at IC3SE 2024.",
+      ],
+    },
+
+    {
+      title: "Currently Exploring",
+      list: [
+        "Advanced System Design",
+        "Distributed Computing",
+        "Cloud-Native Architecture",
+        "Artificial Intelligence",
+        "Developer Infrastructure",
+        "High-Performance C++",
+      ],
+    },
+
+    {
+      title: "Beyond Work",
+      paragraphs: [
+        "Technology, for me, is more than a profession—it's a continuous learning journey. I'm passionate about understanding how complex systems are designed, how infrastructure scales, and how thoughtful engineering decisions shape reliable software. Whether it's backend architecture, distributed systems, or emerging technologies, I enjoy exploring ideas that push me to become a better engineer every day.",
       ],
     },
   ],

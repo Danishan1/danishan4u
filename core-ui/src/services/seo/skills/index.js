@@ -1,101 +1,164 @@
 // =====================================
-// THINKING DIMENSIONS (Senior Backend Mindset)
+// ENGINEERING FOCUS
 // =====================================
 export const thinkingDimensions = [
-  { title: "Scalable System Design", metric: "Architecture" },
-  { title: "High-Performance Backend", metric: "Efficiency" },
-  { title: "Database Design & Optimization", metric: "Data" },
-  { title: "API Design & Integration", metric: "Integration" },
-  { title: "Reliability & Fault Tolerance", metric: "Stability" },
-  { title: "Observability & Monitoring", metric: "Production-Readiness" },
-  { title: "Ownership & End-to-End Delivery", metric: "Accountability" },
+  { title: "Backend Architecture", metric: "Design" },
+  { title: "Distributed Systems", metric: "Scalability" },
+  { title: "Performance Optimization", metric: "Efficiency" },
+  { title: "Database Engineering", metric: "Data" },
+  { title: "Infrastructure Automation", metric: "DevOps" },
+  { title: "Production Reliability", metric: "Operations" },
+  { title: "Engineering Ownership", metric: "Delivery" },
 ];
 
 // =====================================
-// CORE BACKEND SKILL SET
+// TECHNICAL EXPERTISE
 // =====================================
 export const skills = [
   {
-    group: "Backend Systems & Architecture",
+    group: "Backend Engineering",
     list: [
-      { name: "System Design & Scalability", level: "Advanced", type: "Core" },
       {
-        name: "Microservices & Modular Architecture",
+        name: "Backend Architecture & Service Design",
         level: "Advanced",
         type: "Core",
       },
-      { name: "Event-Driven & Async Systems", level: "Advanced", type: "Core" },
-      { name: "REST & GraphQL API Design", level: "Advanced", type: "Core" },
       {
-        name: "Caching & Queueing Systems (Redis, Kafka)",
-        level: "Strong",
-        type: "Core",
-      },
-      {
-        name: "Load Balancing & Horizontal Scaling",
-        level: "Strong",
-        type: "Core",
-      },
-    ],
-  },
-  {
-    group: "Programming & Backend Tech",
-    list: [
-      { name: "Node.js", level: "Advanced", type: "Core" },
-      { name: "C++", level: "Advanced", type: "Core" },
-      {
-        name: "Python (Scripting & Automation)",
-        level: "Working",
-        type: "Active",
-      },
-      {
-        name: "SQL & NoSQL Databases (MySQL, MongoDB)",
+        name: "REST API Design & Development",
         level: "Advanced",
         type: "Core",
       },
-      { name: "Redis & In-Memory Data Stores", level: "Strong", type: "Core" },
+      {
+        name: "Distributed Systems & Event-Driven Architecture",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "Real-Time Applications & WebSockets",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "Authentication & Authorization",
+        level: "Strong",
+        type: "Core",
+      },
     ],
   },
+
   {
-    group: "Production & Reliability",
+    group: "Programming Languages",
     list: [
-      { name: "Linux Server Management", level: "Working", type: "Core" },
       {
-        name: "Nginx / Reverse Proxy Configuration",
+        name: "TypeScript / JavaScript (Node.js)",
+        level: "Advanced",
+        type: "Core",
+      },
+      {
+        name: "C++",
+        level: "Advanced",
+        type: "Core",
+      },
+      {
+        name: "Python",
+        level: "Working",
+        type: "Supporting",
+      },
+      {
+        name: "SQL",
+        level: "Advanced",
+        type: "Core",
+      },
+    ],
+  },
+
+  {
+    group: "Databases & Distributed Technologies",
+    list: [
+      {
+        name: "PostgreSQL",
+        level: "Advanced",
+        type: "Core",
+      },
+      {
+        name: "MySQL",
+        level: "Advanced",
+        type: "Core",
+      },
+      {
+        name: "MongoDB",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "Redis",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "Kafka",
         level: "Working",
         type: "Core",
       },
-      {
-        name: "CI/CD Pipelines & Deployment Automation",
-        level: "Strong",
-        type: "Core",
-      },
-      {
-        name: "Docker (Containerization Awareness)",
-        level: "Working",
-        type: "Core",
-      },
-      {
-        name: "Monitoring & Logging (Prometheus, Grafana, ELK)",
-        level: "Strong",
-        type: "Core",
-      },
-      {
-        name: "Testing & Code Quality (Unit, Integration)",
-        level: "Strong",
-        type: "Core",
-      },
-      { name: "Security & Authentication", level: "Strong", type: "Core" },
     ],
   },
+
   {
-    group: "Leadership & Execution",
+    group: "Infrastructure & Production",
     list: [
-      { name: "Technical Ownership", level: "Advanced", type: "Core" },
-      { name: "Mentoring & Code Reviews", level: "Strong", type: "Core" },
-      { name: "Cross-Functional Collaboration", level: "Strong", type: "Core" },
       {
-        name: "Project Delivery & Reliability",
+        name: "Docker",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "Linux",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "Nginx",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "PM2",
+        level: "Advanced",
+        type: "Core",
+      },
+      {
+        name: "Git & Version Control",
+        level: "Advanced",
+        type: "Core",
+      },
+    ],
+  },
+
+  {
+    group: "Engineering Practices",
+    list: [
+      {
+        name: "System Design",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "Performance Optimization",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "Database Optimization",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "Code Reviews & Mentoring",
+        level: "Strong",
+        type: "Core",
+      },
+      {
+        name: "End-to-End Feature Ownership",
         level: "Advanced",
         type: "Core",
       },

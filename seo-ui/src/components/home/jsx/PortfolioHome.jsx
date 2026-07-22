@@ -23,7 +23,7 @@ export const PortfolioHome = () => {
           <span className={styles.break}> </span>
           (SDE-II)
         </p>
-        <p className={styles.hd1}>itsRIGHTtime</p>
+        <p className={styles.hd1}>JKC Softwares</p>
       </div>
 
       <Link href="/about">

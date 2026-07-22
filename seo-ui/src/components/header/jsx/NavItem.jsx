@@ -35,6 +35,7 @@ export function NavItem({
   };
 
   const getNavLink = (link) => {
+    if (link === "/blog") return "/blog/nodejs/nodejs-a-complete-guide-to-the-popular-javascript-runtime"
     return link === "/resume" ? link : `${link}`;
   };
 

@@ -68,7 +68,7 @@ export const getTimelineConfig = async () => {
      4. SDE-II / TECHNICAL PROJECT LEAD – EXPERIENCE
     ===================================================== */
     {
-      label: "Mar 2025 - Jan 2026",
+      label: "Mar 2025 - Present",
       component: {
         type: "experience",
         data: {
@@ -95,57 +95,57 @@ export const getTimelineConfig = async () => {
     /* =====================================================
      5. SDE-II / TECHNICAL PROJECT LEAD – EXPERIENCE
     ===================================================== */
-    {
-      label: "Jan 2026 - Present",
-      component: {
-        type: "experience",
-        data: {
-          role: "Software Development Engineer II (SDE-II)",
-          org: "itsRIGHTtime",
-          period: "Jan 2026 - Present",
-          description:
-            "Building scalable platforms and backend systems that streamline business operations, improve workflow automation, and enable seamless collaboration across products within the itsRIGHTtime ecosystem.",
-        },
-        responsibilities: [
-          "Designing and developing scalable backend services and platform capabilities",
-          "Owning features end-to-end from requirements and architecture to deployment",
-          "Building APIs, integrations, and automation workflows across products",
-          "Improving system performance, reliability, and maintainability",
-        ],
-        list: [
-          "Node.js, TypeScript",
-          "REST APIs & Distributed Systems",
-          "Workflow Automation & Integrations",
-          "System Design & Scalability",
-        ],
-      },
-    },
+    // {
+    //   label: "Jan 2026 - Present",
+    //   component: {
+    //     type: "experience",
+    //     data: {
+    //       role: "Software Development Engineer II (SDE-II)",
+    //       org: "itsRIGHTtime",
+    //       period: "Jan 2026 - Present",
+    //       description:
+    //         "Building scalable platforms and backend systems that streamline business operations, improve workflow automation, and enable seamless collaboration across products within the itsRIGHTtime ecosystem.",
+    //     },
+    //     responsibilities: [
+    //       "Designing and developing scalable backend services and platform capabilities",
+    //       "Owning features end-to-end from requirements and architecture to deployment",
+    //       "Building APIs, integrations, and automation workflows across products",
+    //       "Improving system performance, reliability, and maintainability",
+    //     ],
+    //     list: [
+    //       "Node.js, TypeScript",
+    //       "REST APIs & Distributed Systems",
+    //       "Workflow Automation & Integrations",
+    //       "System Design & Scalability",
+    //     ],
+    //   },
+    // },
 
-    {
-      label: "Jun 2026 - Present",
-      component: {
-        type: "experience",
-        data: {
-          role: "Founder & CEO",
-          org: "xTDL",
-          period: "Jun 2026 - Present",
-          description:
-            "Building xTDL, a Technology Department as a Service platform that helps startups and growing businesses access technology leadership, engineering execution, and scalable product delivery without maintaining a full in-house technology organization.",
-        },
-        responsibilities: [
-          "Defining company vision, strategy, and product direction",
-          "Designing technology operating models and delivery frameworks",
-          "Driving customer discovery, partnerships, and business growth",
-          "Building scalable systems for technology execution and operations",
-        ],
-        list: [
-          "Technology Strategy",
-          "Product Development",
-          "Engineering Leadership",
-          "Business & Operations",
-        ],
-      },
-    },
+    // {
+    //   label: "Jun 2026 - Present",
+    //   component: {
+    //     type: "experience",
+    //     data: {
+    //       role: "Founder & CEO",
+    //       org: "xTDL",
+    //       period: "Jun 2026 - Present",
+    //       description:
+    //         "Building xTDL, a Technology Department as a Service platform that helps startups and growing businesses access technology leadership, engineering execution, and scalable product delivery without maintaining a full in-house technology organization.",
+    //     },
+    //     responsibilities: [
+    //       "Defining company vision, strategy, and product direction",
+    //       "Designing technology operating models and delivery frameworks",
+    //       "Driving customer discovery, partnerships, and business growth",
+    //       "Building scalable systems for technology execution and operations",
+    //     ],
+    //     list: [
+    //       "Technology Strategy",
+    //       "Product Development",
+    //       "Engineering Leadership",
+    //       "Business & Operations",
+    //     ],
+    //   },
+    // },
   ];
 
   return { layout: "center", alternate: true, data: timelineItems.reverse() };
