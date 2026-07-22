@@ -74,7 +74,7 @@ export const getTimelineConfig = async () => {
         data: {
           role: "Software Development Engineer II (SDE-II)",
           org: "JKC Softwares LLP",
-          period: "Mar 2025 - Jan 2026",
+          period: "Mar 2025 - Present",
           description:
             "Lead backend development of scalable production systems, driving architecture decisions, performance optimization, and technical mentorship.",
         },
